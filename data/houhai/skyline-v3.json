@@ -1,0 +1,1188 @@
+[
+ {
+  "id": 15837,
+  "name": "Excellence Houhai Financial Center",
+  "coord": [
+   -796.0,
+   299.2
+  ],
+  "h": 210.0,
+  "old": 210,
+  "n": 46,
+  "lon": 113.938248,
+  "lat": 22.521851,
+  "style": "excellence",
+  "source": "https://www.skyscrapercenter.com/building/excellence-houhai-financial-center/15837",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/13492_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/33949_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 20884,
+  "name": "Minmetals Financial Center",
+  "coord": [
+   -861.2,
+   488.0
+  ],
+  "h": 145.3,
+  "old": 146,
+  "n": 29,
+  "lon": 113.937637,
+  "lat": 22.523626,
+  "style": "tapered",
+  "source": "https://www.skyscrapercenter.com/building/minmetals-financial-center/20884",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/99649_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/99650_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 18257,
+  "name": "Rongchao Headquarters Tower",
+  "coord": [
+   -784.6,
+   1011.7
+  ],
+  "h": 230.0,
+  "old": 230,
+  "n": 54,
+  "lon": 113.938332,
+  "lat": 22.528259,
+  "style": "rongchao",
+  "source": "https://www.skyscrapercenter.com/building/rongchao-headquarters-tower/18257",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/60685_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/60686_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 16862,
+  "name": "Hotel Kapok Shenzhen Bay",
+  "coord": [
+   -375.1,
+   303.9
+  ],
+  "h": 73.0,
+  "old": 74,
+  "n": 19,
+  "lon": 113.942299,
+  "lat": 22.52194,
+  "style": "kapok",
+  "source": "https://www.skyscrapercenter.com/building/hotel-kapok-shenzhen-bay/16862",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/21939_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/38610_500x650.jpg"
+  ],
+  "status_source": "COM",
+  "grade": "A"
+ },
+ {
+  "id": 37300,
+  "name": "Ali Center Tower 2",
+  "coord": [
+   -877.4,
+   -722.4
+  ],
+  "h": 84.2,
+  "old": 85,
+  "n": 17,
+  "lon": 113.937531,
+  "lat": 22.512691,
+  "style": "ali",
+  "source": "https://www.skyscrapercenter.com/building/ali-center-tower-2/37300",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88540_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88541_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 50533,
+  "name": "Dajia Insurance Group Headquarters Tower 2",
+  "coord": [
+   -842.9,
+   181.3
+  ],
+  "h": 83.0,
+  "old": 92,
+  "n": 19,
+  "lon": 113.937775,
+  "lat": 22.520828,
+  "style": "dajia",
+  "source": "https://www.skyscrapercenter.com/building/dajia-insurance-group-headquarters-tower-2/50533",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "C",
+  "site_refs": [
+   {
+    "title": "大家财险深圳总部大厦",
+    "poi": "https://map.baidu.com/poi/36c189a704e8f26bfea77852",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_9616505c4f59ee757b92ff7005e7ff7d"
+   }
+  ]
+ },
+ {
+  "id": 9993,
+  "name": "CASC International Center North Tower",
+  "coord": [
+   -915.5,
+   405.8
+  ],
+  "h": 232.0,
+  "old": 233,
+  "n": 50,
+  "lon": 113.937027,
+  "lat": 22.52286,
+  "style": "casc",
+  "source": "https://www.skyscrapercenter.com/building/casc-international-center-north-tower/9993",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/2528_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/13988_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 15170,
+  "name": "Shenzhen Venture Capital – Private Enterprise Tower",
+  "coord": [
+   -1331.8,
+   684.0
+  ],
+  "h": 202.4,
+  "old": 203,
+  "n": 44,
+  "lon": 113.933006,
+  "lat": 22.5254,
+  "style": "lattice",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-venture-capital-private-enterprise-tower/15170",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/22810_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/14257_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 29355,
+  "name": "A8 Music Building",
+  "coord": [
+   -1256.6,
+   680.4
+  ],
+  "h": 110.0,
+  "old": 100,
+  "n": 25,
+  "lon": 113.933777,
+  "lat": 22.52529,
+  "style": "a8",
+  "source": "https://www.skyscrapercenter.com/building/a8-music-building/29355",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/3261_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/3531_500x650.jpg"
+  ],
+  "status_source": "COM",
+  "grade": "B"
+ },
+ {
+  "id": 16730,
+  "name": "CNOOC New Tower 2",
+  "coord": [
+   -1220.1,
+   -489.3
+  ],
+  "h": 210.0,
+  "old": 210,
+  "n": 45,
+  "lon": 113.934181,
+  "lat": 22.51474,
+  "style": "cnooc",
+  "source": "https://www.skyscrapercenter.com/building/cnooc-new-tower-2/16730",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/8089_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/39798_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "mapping_note": "Completed paired blue-green facades checked against the site collection; historical construction photos are secondary.",
+  "site_refs": [
+   {
+    "title": "中海油大厦",
+    "poi": "https://map.baidu.com/poi/06c9e626a3021be69868b4e6",
+    "photo": "https://poi-pic.cdn.bcebos.com/42377ddf5efa9bd5c98425d01ec0fe16.jpg"
+   }
+  ]
+ },
+ {
+  "id": 16729,
+  "name": "CNOOC New Tower 1",
+  "coord": [
+   -1194.3,
+   -388.2
+  ],
+  "h": 210.0,
+  "old": 210,
+  "n": 45,
+  "lon": 113.934387,
+  "lat": 22.515791,
+  "style": "cnooc",
+  "source": "https://www.skyscrapercenter.com/building/cnooc-new-tower-1/16729",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/48130_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/31995_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "mapping_note": "Completed paired blue-green facades checked against the site collection; historical construction photos are secondary.",
+  "site_refs": [
+   {
+    "title": "中海油大厦",
+    "poi": "https://map.baidu.com/poi/06c9e626a3021be69868b4e6",
+    "photo": "https://poi-pic.cdn.bcebos.com/42377ddf5efa9bd5c98425d01ec0fe16.jpg"
+   }
+  ]
+ },
+ {
+  "id": 37303,
+  "name": "Ali Center Tower 3",
+  "coord": [
+   -881.2,
+   -799.2
+  ],
+  "h": 75.2,
+  "old": 76,
+  "n": 15,
+  "lon": 113.937531,
+  "lat": 22.51198,
+  "style": "ali",
+  "source": "https://www.skyscrapercenter.com/building/ali-center-tower-3/37303",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88540_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88538_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 29794,
+  "name": "Shenzhen Lenovo Tower 1B",
+  "coord": [
+   -976.5,
+   19.3
+  ],
+  "h": 132.7,
+  "old": 133,
+  "n": 28,
+  "lon": 113.936516,
+  "lat": 22.519262,
+  "style": "lenovo",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-lenovo-tower-1b/29794",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "联想后海中心",
+    "poi": "https://map.baidu.com/poi/57b53c3e395d420616a190d4",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_9a87486aff3e53bebb608047271b9852.jpeg"
+   }
+  ]
+ },
+ {
+  "id": 35471,
+  "name": "Peng Runda Commercial Plaza East Tower",
+  "coord": [
+   -909.3,
+   217.8
+  ],
+  "h": 151.0,
+  "old": 163,
+  "n": 35,
+  "lon": 113.93718,
+  "lat": 22.521109,
+  "style": "pengtower",
+  "source": "https://www.skyscrapercenter.com/building/peng-runda-commercial-plaza-east-tower/35471",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "鹏润达广场",
+    "poi": "https://map.baidu.com/poi/c16313d251c70774d5b74ea3",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/001/161_b17dfdf208b3a5a86a8829129ab138ea.jpeg"
+   }
+  ]
+ },
+ {
+  "id": 36759,
+  "name": "Rongchao Houhai Mansion",
+  "coord": [
+   -1026.1,
+   679.4
+  ],
+  "h": 162.85,
+  "old": 163,
+  "n": 34,
+  "lon": 113.93589,
+  "lat": 22.525339,
+  "style": "rongchao",
+  "source": "https://www.skyscrapercenter.com/building/rongchao-houhai-mansion/36759",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/86532_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 14591,
+  "name": "China Resources Vanguard Headquarter Building",
+  "coord": [
+   -546.2,
+   -111.6
+  ],
+  "h": 145.1,
+  "old": 145,
+  "n": 28,
+  "lon": 113.940826,
+  "lat": 22.518167,
+  "style": "vanguard",
+  "source": "https://www.skyscrapercenter.com/building/china-resources-vanguard-headquarter-building/14591",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/104644_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/104645_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 35363,
+  "name": "Baidu Headquarters West Tower",
+  "coord": [
+   -889.6,
+   926.8
+  ],
+  "h": 150.0,
+  "old": 150,
+  "n": 33,
+  "lon": 113.937187,
+  "lat": 22.527517,
+  "style": "baidu",
+  "source": "https://www.skyscrapercenter.com/building/baidu-headquarters-west-tower/35363",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82312_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82313_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 35470,
+  "name": "Peng Runda Commercial Plaza West Tower",
+  "coord": [
+   -999.4,
+   240.8
+  ],
+  "h": 151.0,
+  "old": 163,
+  "n": 35,
+  "lon": 113.936363,
+  "lat": 22.521315,
+  "style": "pengtower",
+  "source": "https://www.skyscrapercenter.com/building/peng-runda-commercial-plaza-west-tower/35470",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "鹏润达广场",
+    "poi": "https://map.baidu.com/poi/c16313d251c70774d5b74ea3",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/001/161_b17dfdf208b3a5a86a8829129ab138ea.jpeg"
+   }
+  ]
+ },
+ {
+  "id": 29793,
+  "name": "Shenzhen Lenovo Tower 1A",
+  "coord": [
+   -1084.4,
+   -6.6
+  ],
+  "h": 203.85,
+  "old": 204,
+  "n": 42,
+  "lon": 113.935555,
+  "lat": 22.519012,
+  "style": "lenovo",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-lenovo-tower-1a/29793",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "联想后海中心",
+    "poi": "https://map.baidu.com/poi/57b53c3e395d420616a190d4",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_9a87486aff3e53bebb608047271b9852.jpeg"
+   }
+  ]
+ },
+ {
+  "id": 41262,
+  "name": "Cscecsteel HQ Tower",
+  "coord": [
+   -1053.3,
+   -794.4
+  ],
+  "h": 165.9,
+  "old": 165,
+  "n": 33,
+  "lon": 113.935883,
+  "lat": 22.511948,
+  "style": "steelhq",
+  "source": "https://www.skyscrapercenter.com/building/cscecsteel-hq-tower/41262",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "中建科工大厦",
+    "poi": "https://map.baidu.com/poi/23a16b3efe0c7ea917948e62",
+    "photo": "https://poi-pic.cdn.bcebos.com/0e830cba35ef7b8d31174c482c0358c2.jpg"
+   }
+  ]
+ },
+ {
+  "id": 35513,
+  "name": "China Resources Shenzhen Bay Yuefu Phase 2 Tower 2",
+  "coord": [
+   -537.6,
+   -4.1
+  ],
+  "h": 153.74,
+  "old": 154,
+  "n": 43,
+  "lon": 113.940948,
+  "lat": 22.519119,
+  "style": "yuefu",
+  "source": "https://www.skyscrapercenter.com/building/china-resources-shenzhen-bay-yuefu-phase-2-tower-2/35513",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82662_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 37302,
+  "name": "Ali Center Tower 1",
+  "coord": [
+   -796.3,
+   -719.5
+  ],
+  "h": 52.7,
+  "old": 53,
+  "n": 10,
+  "lon": 113.938431,
+  "lat": 22.512676,
+  "style": "ali",
+  "source": "https://www.skyscrapercenter.com/building/ali-center-tower-1/37302",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88539_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88538_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 45883,
+  "name": "China Overseas Headquarters",
+  "coord": [
+   -967.5,
+   -314.8
+  ],
+  "h": 108.95,
+  "old": 100,
+  "n": 21,
+  "lon": 113.936661,
+  "lat": 22.516247,
+  "style": "broadstairs",
+  "source": "https://www.skyscrapercenter.com/building/china-overseas-headquarters/45883",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/120456_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/120458_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 8740,
+  "name": "Shenzhen Coastal City West Tower",
+  "coord": [
+   -1462.2,
+   240.2
+  ],
+  "h": 155.0,
+  "old": 155,
+  "n": 30,
+  "lon": 113.931633,
+  "lat": 22.52124,
+  "style": "officetower",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-coastal-city-west-tower/8740",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "C"
+ },
+ {
+  "id": 45430,
+  "name": "Dacheng Fund Headquarter Building",
+  "coord": [
+   -667.0,
+   277.7
+  ],
+  "h": 130.0,
+  "old": 130,
+  "n": 27,
+  "lon": 113.939552,
+  "lat": 22.521498,
+  "style": "diamond",
+  "source": "https://www.skyscrapercenter.com/building/dacheng-fund-headquater-building/45430",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/106641_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 35420,
+  "name": "Hisense South HQ",
+  "coord": [
+   -1082.6,
+   -412.6
+  ],
+  "h": 149.0,
+  "old": 160,
+  "n": 30,
+  "lon": 113.935631,
+  "lat": 22.515448,
+  "style": "hisense",
+  "source": "https://www.skyscrapercenter.com/building/hisense-south-hq/35420",
+  "photos": [],
+  "status_source": "COM",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "海信南方大厦",
+    "poi": "https://map.baidu.com/poi/d3d2ef0f43210893fa0cadc5",
+    "photo": "https://poi-pic.cdn.bcebos.com/6d50637791f6ce873d6e52c72d98dc6b.jpg"
+   }
+  ]
+ },
+ {
+  "id": 37304,
+  "name": "Ali Center Tower 4",
+  "coord": [
+   -796.9,
+   -803.8
+  ],
+  "h": 43.7,
+  "old": 44,
+  "n": 8,
+  "lon": 113.938454,
+  "lat": 22.511883,
+  "style": "ali",
+  "source": "https://www.skyscrapercenter.com/building/ali-center-tower-4/37304",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88541_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/88539_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 41865,
+  "name": "Dajia Insurance Group Headquarters Tower 1",
+  "coord": [
+   -853.8,
+   95.1
+  ],
+  "h": 273.0,
+  "old": 251,
+  "n": 49,
+  "lon": 113.937645,
+  "lat": 22.520096,
+  "style": "dajia",
+  "source": "https://www.skyscrapercenter.com/building/dajia-insurance-group-headquarters-tower-1/41865",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "A",
+  "site_refs": [
+   {
+    "title": "大家财险深圳总部大厦",
+    "poi": "https://map.baidu.com/poi/36c189a704e8f26bfea77852",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_9616505c4f59ee757b92ff7005e7ff7d"
+   }
+  ],
+  "mapping_note": "Named site photograph shows oval fluted skin, slight waist, and sloping roof rim."
+ },
+ {
+  "id": 35512,
+  "name": "China Resources Shenzhen Bay Yuefu Phase 2 Tower 1",
+  "coord": [
+   -515.7,
+   84.3
+  ],
+  "h": 157.34,
+  "old": 158,
+  "n": 44,
+  "lon": 113.941162,
+  "lat": 22.519867,
+  "style": "yuefu",
+  "source": "https://www.skyscrapercenter.com/building/china-resources-shenzhen-bay-yuefu-phase-2-tower-1/35512",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82663_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82664_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 23614,
+  "name": "Baidu Headquarters East Tower",
+  "coord": [
+   -732.5,
+   938.1
+  ],
+  "h": 189.3,
+  "old": 190,
+  "n": 43,
+  "lon": 113.938652,
+  "lat": 22.527769,
+  "style": "baidu",
+  "source": "https://www.skyscrapercenter.com/building/baidu-headquarters-east-tower/23614",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/76632_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/76639_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 37060,
+  "name": "Hengyu Jinrong Center Block C",
+  "coord": [
+   -1036.5,
+   -302.3
+  ],
+  "h": 258.0,
+  "old": 243,
+  "n": 52,
+  "lon": 113.935776,
+  "lat": 22.516567,
+  "style": "hengyu",
+  "source": "https://www.skyscrapercenter.com/building/hengyu-jinrong-center-block-c/37060",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95616_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95617_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "mapping_note": " Construction photographs establish structural bays, not final facade detail.",
+  "site_refs": [
+   {
+    "title": "恒裕深圳湾",
+    "poi": "https://map.baidu.com/poi/b2693b72951bededb04c490a",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_31ff21670bf826b400a57277fa2226e3"
+   }
+  ]
+ },
+ {
+  "id": 50530,
+  "name": "ByteDance Houhai Center",
+  "coord": [
+   -998.2,
+   -438.4
+  ],
+  "h": 157.8,
+  "old": 99,
+  "n": 32,
+  "lon": 113.936279,
+  "lat": 22.515198,
+  "style": "bytedance",
+  "source": "https://www.skyscrapercenter.com/building/bytedance-houhai-center/50530",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/122836_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/122826_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A"
+ },
+ {
+  "id": 37059,
+  "name": "Hengyu Jinrong Center Block B",
+  "coord": [
+   -1009.4,
+   -206.8
+  ],
+  "h": 258.0,
+  "old": 246,
+  "n": 52,
+  "lon": 113.935997,
+  "lat": 22.51737,
+  "style": "hengyu",
+  "source": "https://www.skyscrapercenter.com/building/hengyu-jinrong-center-block-b/37059",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95603_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95604_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "mapping_note": " Construction photographs establish structural bays, not final facade detail.",
+  "site_refs": [
+   {
+    "title": "恒裕深圳湾",
+    "poi": "https://map.baidu.com/poi/b2693b72951bededb04c490a",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_31ff21670bf826b400a57277fa2226e3"
+   }
+  ]
+ },
+ {
+  "id": 15804,
+  "name": "CASC International Center South Tower",
+  "coord": [
+   -907.4,
+   311.9
+  ],
+  "h": 134.75,
+  "old": 130,
+  "n": 31,
+  "lon": 113.93708,
+  "lat": 22.52224,
+  "style": "casc",
+  "source": "https://www.skyscrapercenter.com/building/casc-international-center-south-tower/15804",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/17964_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/38370_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B"
+ },
+ {
+  "id": 41783,
+  "name": "Houhai Industrial and Commercial Bank Building",
+  "coord": [
+   -698.4,
+   159.2
+  ],
+  "h": 189,
+  "old": 189,
+  "n": 41,
+  "lon": 113.939181,
+  "lat": 22.520503,
+  "style": "icbc",
+  "source": "https://www.skyscrapercenter.com/building/houhai-industrial-and-commercial-bank-building/41783",
+  "photos": [],
+  "status_source": "Architecturally Topped Out",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "深圳工商银行大厦",
+    "poi": "https://map.baidu.com/poi/de39d74fd27a9283f6c59c56",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/001/1108_6ae51c7b4b790bf6b027adfa7bcd2795.jpeg"
+   }
+  ],
+  "new_match": true
+ },
+ {
+  "id": 37058,
+  "name": "Hengyu Jinrong Center Block A",
+  "coord": [
+   -1114.4,
+   -189.6
+  ],
+  "h": 310,
+  "old": 314,
+  "n": 66,
+  "lon": 113.934875,
+  "lat": 22.516747,
+  "style": "hengyu",
+  "source": "https://www.skyscrapercenter.com/building/hengyu-jinrong-center-block-a/37058",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95597_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/95595_500x650.jpg"
+  ],
+  "status_source": "Structurally Topped Out",
+  "grade": "B",
+  "mapping_note": "~89 m to the catalog point; the only ~310 m clipped-corner footprint in this three-tower group. Individual center not independently surveyed. Construction photographs establish structural bays, not final facade detail. The named A-building map POI converts to (-1122,-188), ~8 m from the mapped 314 m tower centroid.",
+  "site_refs": [
+   {
+    "title": "恒裕深圳湾",
+    "poi": "https://map.baidu.com/poi/b2693b72951bededb04c490a",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_31ff21670bf826b400a57277fa2226e3"
+   },
+   {
+    "title": "恒裕深圳湾-A栋",
+    "poi": "https://map.baidu.com/poi/0ee4b6031f22576a2fb17ea6",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/images/a16309c7d192ce6fe7ec7cc92d217c6c"
+   }
+  ],
+  "new_match": true
+ },
+ {
+  "id": 35503,
+  "name": "China Resources Shenzhen Bay Yuefu Phase 1 Tower 1",
+  "coord": [
+   -417.9,
+   475.4
+  ],
+  "h": 175,
+  "old": 5,
+  "n": 52,
+  "lon": 113.941513,
+  "lat": 22.523478,
+  "style": "yuefu",
+  "source": "https://www.skyscrapercenter.com/building/china-resources-shenzhen-bay-yuefu-phase-1-tower-1/35503",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82626_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82627_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "mapping_note": "Mapped 5 m footprint paired using the north/south order, relative spacing, plan scale and proximity to published coordinates. Floor height is replaced.",
+  "new_match": true
+ },
+ {
+  "id": 35504,
+  "name": "China Resources Shenzhen Bay Yuefu Phase 1 Tower 2",
+  "coord": [
+   -450.4,
+   389.1
+  ],
+  "h": 172,
+  "old": 5,
+  "n": 51,
+  "lon": 113.94133,
+  "lat": 22.522755,
+  "style": "yuefu",
+  "source": "https://www.skyscrapercenter.com/building/china-resources-shenzhen-bay-yuefu-phase-1-tower-2/35504",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82632_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82629_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "mapping_note": "Mapped 5 m footprint paired using the north/south order, relative spacing, plan scale and proximity to published coordinates. Floor height is replaced.",
+  "new_match": true
+ },
+ {
+  "id": 505,
+  "name": "Shenzhen Zhongzhou Holdings Financial Center",
+  "coord": [
+   -1803.4,
+   148.8
+  ],
+  "h": 301,
+  "old": 301,
+  "n": 61,
+  "lon": 113.92852,
+  "lat": 22.52055,
+  "style": "zhongzhou",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-zhongzhou-holdings-financial-center/505",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/53972_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "new_match": true
+ },
+ {
+  "id": 23594,
+  "name": "Shenzhen Zhongzhou Holdings Financial Center Tower B",
+  "coord": [
+   -1729,
+   183.4
+  ],
+  "h": 158,
+  "old": 158,
+  "n": 34,
+  "lon": 113.92907,
+  "lat": 22.5208,
+  "style": "zhongzhou",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-zhongzhou-holdings-financial-center-tower-b/23594",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/8864_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/20427_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "new_match": true
+ },
+ {
+  "id": 42326,
+  "name": "Hytera Headquarters",
+  "coord": [
+   -1218.6,
+   -993.9
+  ],
+  "h": 258,
+  "old": 258,
+  "n": 42,
+  "lon": 113.93409,
+  "lat": 22.510653,
+  "style": "hytera",
+  "source": "https://www.skyscrapercenter.com/building/hytera-headquarters/42326",
+  "photos": [],
+  "status_source": "Architecturally Topped Out",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "海能达全球总部大厦中建一局项目部办公区",
+    "poi": "https://map.baidu.com/poi/a05074cd8ec95bca1c389400",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/images/d03d665d205da65b46c1109cc07b395b"
+   }
+  ],
+  "new_match": true
+ },
+ {
+  "id": 36474,
+  "name": "THE ICON",
+  "coord": [
+   -1863.2,
+   -1038.7
+  ],
+  "h": 162,
+  "old": 150,
+  "n": 51,
+  "lon": 113.927795,
+  "lat": 22.509909,
+  "style": "icon",
+  "source": "https://www.skyscrapercenter.com/building/the-icon/36474",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/84585_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/84584_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "new_match": true
+ },
+ {
+  "id": 17069,
+  "name": "Shenzhen Bay Innovation and Technology Centre Building A",
+  "coord": [
+   -463.4,
+   1261.4
+  ],
+  "h": 110,
+  "old": 100,
+  "n": 31,
+  "lon": 113.94149,
+  "lat": 22.530476,
+  "style": "techhousing",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-innovation-and-technology-centre-building-a/17069",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107589_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107610_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "mapping_note": "The shared photographs show residential bars as a group; unique elevations not resolved.",
+  "new_match": true
+ },
+ {
+  "id": 17068,
+  "name": "Shenzhen Bay Innovation and Technology Centre Building B",
+  "coord": [
+   -372,
+   1264.1
+  ],
+  "h": 108,
+  "old": 100,
+  "n": 31,
+  "lon": 113.94223,
+  "lat": 22.530584,
+  "style": "techhousing",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-innovation-and-technology-centre-building-b/17068",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107589_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107598_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "mapping_note": "The shared photographs show residential bars as a group; unique elevations not resolved.",
+  "new_match": true
+ },
+ {
+  "id": 17067,
+  "name": "Shenzhen Bay Innovation and Technology Centre Building C",
+  "coord": [
+   -352.5,
+   1326.3
+  ],
+  "h": 169,
+  "old": 155,
+  "n": 48,
+  "lon": 113.942474,
+  "lat": 22.531124,
+  "style": "techhousing",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-innovation-and-technology-centre-building-c/17067",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107589_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107598_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "mapping_note": "The shared photographs show residential bars as a group; unique elevations not resolved.",
+  "new_match": true
+ },
+ {
+  "id": 17066,
+  "name": "Shenzhen Bay Innovation and Technology Centre Tower 2",
+  "coord": [
+   -396.8,
+   1431.2
+  ],
+  "h": 247,
+  "old": 247,
+  "n": 53,
+  "lon": 113.942101,
+  "lat": 22.532082,
+  "style": "techshaft",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-innovation-and-technology-centre-tower-2/17066",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107611_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107584_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "new_match": true
+ },
+ {
+  "id": 17065,
+  "name": "Shenzhen Bay Innovation and Technology Centre Tower 1",
+  "coord": [
+   -458.8,
+   1385.5
+  ],
+  "h": 311,
+  "old": 311,
+  "n": 69,
+  "lon": 113.941528,
+  "lat": 22.531651,
+  "style": "techshaft",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-innovation-and-technology-centre-tower-1/17065",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107584_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/107583_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "new_match": true
+ },
+ {
+  "id": 41808,
+  "name": "Shenzhen Gemdale Viseen North Tower",
+  "coord": [
+   41.8,
+   1353.1
+  ],
+  "h": 171,
+  "old": 171,
+  "n": 36,
+  "lon": 113.946381,
+  "lat": 22.531389,
+  "style": "gemdale",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-gemdale-viseen-north-tower/41808",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/105954_500x650.jpg",
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/99667_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "A",
+  "new_match": true
+ },
+ {
+  "id": 33978,
+  "name": "Shenzhen Bay Ecocity B-Tech Tower 3",
+  "coord": [
+   -28.9,
+   1543.2
+  ],
+  "h": 190,
+  "old": 190,
+  "n": 43,
+  "lon": 113.945648,
+  "lat": 22.533207,
+  "style": "officetower",
+  "source": "https://www.skyscrapercenter.com/building/shenzhen-bay-ecocity-b-tech-tower-3/33978",
+  "photos": [
+   "https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/82317_500x650.jpg"
+  ],
+  "status_source": "Completed",
+  "grade": "B",
+  "new_match": true
+ },
+ {
+  "id": 35428,
+  "name": "Xizhilang Diamond Tower",
+  "coord": [
+   -1028.8,
+   -907.2
+  ],
+  "h": 162,
+  "old": 162,
+  "n": 31,
+  "lon": 113.934666,
+  "lat": 22.514279,
+  "style": "xizhilang",
+  "source": "https://www.skyscrapercenter.com/building/xizhilang-diamond-tower/35428",
+  "photos": [],
+  "status_source": "Completed",
+  "grade": "B",
+  "site_refs": [
+   {
+    "title": "喜之郎大厦",
+    "poi": "https://map.baidu.com/poi/32d385077a98794f08ccdd5b",
+    "photo": "https://lbsugc.cdn.bcebos.com/images/B6794bb25e6807cb60.jpeg"
+   },
+   {
+    "title": "深圳湾钻石塔",
+    "poi": "https://map.baidu.com/poi/885503cbfb7a3ab922f017c5",
+    "photo": "https://poi-pic-gz.cdn.bcebos.com/pic_a66e461685f713e3bb72962a5032362f.jpeg"
+   }
+  ],
+  "mapping_note": "Catalog coordinates conflict. Two map POIs at Keyuan South Road 3033 match this 162 m footprint; podium and glass tone approximate the site image.",
+  "new_match": true
+ },
+ {
+  "id": 43442,
+  "name": "Lexin Headquarters Building",
+  "coord": [
+   -724.0,
+   -17.8
+  ],
+  "h": 150,
+  "old": 5,
+  "n": 32,
+  "lon": 113.939728,
+  "lat": 22.518833,
+  "style": "lexin",
+  "source": "https://www.skyscrapercenter.com/building/lexin-headquarters-building/43442",
+  "photos": [],
+  "status_source": "Under Construction",
+  "grade": "A",
+  "site_refs": [
+   {
+    "title": "乐信大厦",
+    "poi": "https://map.baidu.com/poi/62ab6e85a7f934064e2fdf51",
+    "photo": "https://lbsugc.cdn.bcebos.com/images/B6ae5ea15cf6df769b.jpeg"
+   }
+  ],
+  "mapping_note": "Named Baidu POI converts to (-724,-7), inside the 1743 m2 mapped footprint. Nearest MixC part 42.1 m; no intersection. Height from architecture database, geometry is a completed-design interpretation; database status is Under Construction.",
+  "new_match": true
+ }
+]

@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.pbf binary
+*.gz binary
+*.png binary
+/全景建筑版/深圳湾_全景建筑.html binary
+/全景建筑版/深圳湾_全景建筑.glb filter=lfs diff=lfs merge=lfs -text

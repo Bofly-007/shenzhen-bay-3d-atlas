@@ -1,0 +1,4921 @@
+{
+  "bounds_east_north_m": [
+    1550.0,
+    350.0,
+    3250.0,
+    1480.0
+  ],
+  "model_sha256": "e833bd5d4baee084e7eb43bbaff00afcfa91e04a3d06514247c9f7acb61760b4",
+  "horizontal_tolerance_m2": 0.015,
+  "section_spacing_max_m": 2.0,
+  "method": "按导出三角面恢复独立建筑。平面先求实际三角面的并集，高度在规则采样层及各面顶点临界层间切片。记录独立闭合截面的交集，开曲面不推定为封闭实体。",
+  "counts": {
+    "registered": 254,
+    "retained_G": 75,
+    "all_B": 108,
+    "mesh_objects": 256,
+    "all_pair_combinations": 32640,
+    "intersecting_xy_pairs": 44,
+    "classes": {
+      "documented_connection": 8,
+      "touching_horizontal_interface": 13,
+      "no_common_interior_on_sampled_sections": 11,
+      "vertical_clearance": 1,
+      "shared_boundary_or_below_area_tolerance": 11
+    }
+  },
+  "objects": {
+    "@C-shell": {
+      "name": "C塔裙房及跨塔外罩",
+      "triangles": 43806,
+      "z_m": [
+        -1.05,
+        279.067
+      ],
+      "mesh_parts": [
+        "Projects/Tower C/Shell/Continuous saddle edge",
+        "Projects/Tower C/Shell/Spanning glass canopy",
+        "Projects/Tower C/Shell/Folded upper ribbon",
+        "Projects/Tower C/Shell/Saddle soffit",
+        "Projects/Tower C/Shell/Saddle pleats",
+        "Projects/Tower C/Shell/Saddle floor joints",
+        "Projects/Tower C/Shell/Swept saddle ribs",
+        "Projects/Tower C/Shell/Flared west wing",
+        "Projects/Tower C/Shell/West wing facets",
+        "Projects/Tower C/Shell/West wing mullions",
+        "Projects/Tower C/Shell/Fold thickness",
+        "Projects/Tower C/Shell/Outer eave",
+        "Projects/Tower C/Shell/Luminous mouth lip",
+        "Projects/Tower C/Shell/Recessed court ribs",
+        "Projects/Tower C/Shell/Rib side faces",
+        "Projects/Tower C/Shell/Nested blade highlights",
+        "Projects/Tower C/Shell/Terrace leading edges",
+        "Projects/Tower C/Shell/Stepped public terraces",
+        "Projects/Tower C/Shell/Recessed terrace glazing",
+        "Projects/Tower C/Shell/Terrace planting",
+        "Projects/Tower C/Shell/Glass pavilion window profiles",
+        "Projects/Tower C/Shell/Pavilion end fascias",
+        "Projects/Tower C/Shell/Occupied pavilion curtain walls",
+        "Projects/Tower C/Shell/Pavilion sloping roof",
+        "Projects/Tower C/Shell/Pavilion floor fascias",
+        "Projects/Tower C/Shell/Pavilion end glazing",
+        "Projects/Tower C/Shell/Court amphitheatre treads",
+        "Projects/Tower C/Shell/Court amphitheatre risers",
+        "Projects/Tower C/Shell/Court tree trunks",
+        "Projects/Tower C/Shell/Garden beds",
+        "Projects/Tower C/Shell/Garden trees"
+      ]
+    },
+    "@carbon-bridges": {
+      "name": "碳云花园连桥",
+      "triangles": 1728,
+      "z_m": [
+        20.935,
+        153.3
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/iCarbonX four garden bridges/1",
+        "Buildings/Registered HQ design/iCarbonX four garden bridges/2",
+        "Buildings/Registered HQ design/iCarbonX four garden bridges/3",
+        "Buildings/Registered HQ design/iCarbonX four garden bridges/4"
+      ]
+    },
+    "B0633": {
+      "name": "B0633",
+      "triangles": 16,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B0706": {
+      "name": "B0706",
+      "triangles": 46,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B0707": {
+      "name": "B0707",
+      "triangles": 16,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B0708": {
+      "name": "B0708",
+      "triangles": 90,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B0709": {
+      "name": "B0709",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0710": {
+      "name": "深圳湾超级总部基地规划展览馆",
+      "triangles": 36,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B0710 深圳湾超级总部基地规划展览馆"
+      ]
+    },
+    "B0711": {
+      "name": "B0711",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0712": {
+      "name": "B0712",
+      "triangles": 25,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0713": {
+      "name": "B0713",
+      "triangles": 115,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 2"
+      ]
+    },
+    "B0714": {
+      "name": "B0714",
+      "triangles": 70,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 2"
+      ]
+    },
+    "B0715": {
+      "name": "B0715",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 2"
+      ]
+    },
+    "B0716": {
+      "name": "B0716",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 2"
+      ]
+    },
+    "B0822": {
+      "name": "B0822",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 4 0"
+      ]
+    },
+    "B0823": {
+      "name": "京东中心 JD Hub（剧场与展厅）",
+      "triangles": 2955,
+      "z_m": [
+        0.2,
+        58.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B0823/Public podium",
+        "Buildings/Registered HQ design/B0823/Terrace",
+        "Buildings/Registered HQ design/B0823/Theatre and gallery",
+        "Buildings/Registered HQ design/B0823/Garden roofs"
+      ]
+    },
+    "B0824": {
+      "name": "联泰超总湾国际中心 1栋（T1）",
+      "triangles": 1748,
+      "z_m": [
+        0.19,
+        232.3
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0824/Tower/Slabs",
+        "Buildings/Registered eastern parcels/B0824/Tower/Glazing",
+        "Buildings/Registered eastern parcels/B0824/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/B0824/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/B0824/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0824/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/B0824/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/B0824/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/B0824/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/B0824/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0824/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/B0824/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/B0824/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/B0824/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/B0824/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "B0825": {
+      "name": "京东深圳总部 西塔",
+      "triangles": 15284,
+      "z_m": [
+        0.16,
+        162.8
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B0825/Recessed central garden wall",
+        "Buildings/Registered HQ design/B0825/Offset office blocks",
+        "Buildings/Registered HQ design/B0825/Setback roofs",
+        "Buildings/Registered HQ design/B0825/Terrace nosing",
+        "Buildings/Registered HQ design/B0825/Brass terrace edges",
+        "Buildings/Registered HQ design/B0825/Planted terrace",
+        "Buildings/Registered HQ design/B0825/Terrace glazing",
+        "Buildings/Registered HQ design/B0825/Transverse volumes",
+        "Buildings/Registered HQ design/B0825/Garden spine balcony rims",
+        "Buildings/Registered HQ design/B0825/Garden spine planted slabs"
+      ]
+    },
+    "B0826": {
+      "name": "京东深圳总部 东塔",
+      "triangles": 16860,
+      "z_m": [
+        0.16,
+        209.9
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B0826/Recessed central garden wall",
+        "Buildings/Registered HQ design/B0826/Offset office blocks",
+        "Buildings/Registered HQ design/B0826/Setback roofs",
+        "Buildings/Registered HQ design/B0826/Terrace nosing",
+        "Buildings/Registered HQ design/B0826/Brass terrace edges",
+        "Buildings/Registered HQ design/B0826/Planted terrace",
+        "Buildings/Registered HQ design/B0826/Terrace glazing",
+        "Buildings/Registered HQ design/B0826/Transverse volumes",
+        "Buildings/Registered HQ design/B0826/Garden spine balcony rims",
+        "Buildings/Registered HQ design/B0826/Garden spine planted slabs"
+      ]
+    },
+    "B0827": {
+      "name": "B0827",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0828": {
+      "name": "B0828",
+      "triangles": 22,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0829": {
+      "name": "B0829",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 4 1"
+      ]
+    },
+    "B0830": {
+      "name": "B0830",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 4 1"
+      ]
+    },
+    "B0831": {
+      "name": "B0831",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0832": {
+      "name": "B0832",
+      "triangles": 40,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0833": {
+      "name": "B0833",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0834": {
+      "name": "B0834",
+      "triangles": 16,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 4 1"
+      ]
+    },
+    "B0835": {
+      "name": "B0835",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 4 1"
+      ]
+    },
+    "B0836": {
+      "name": "B0836",
+      "triangles": 16,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0837": {
+      "name": "B0837",
+      "triangles": 19,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0838": {
+      "name": "B0838",
+      "triangles": 25,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0839": {
+      "name": "B0839",
+      "triangles": 13,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0840": {
+      "name": "B0840",
+      "triangles": 10,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0841": {
+      "name": "B0841",
+      "triangles": 28,
+      "z_m": [
+        0.17,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B0952": {
+      "name": "联泰超总湾低层院落 · 北起第1排西起第1座",
+      "triangles": 316,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0952/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/B0952/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/B0952/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/B0952/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/B0952/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0952/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/B0952/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/B0952/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/B0952/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/B0952/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0952/Planted terrace",
+        "Buildings/Registered eastern parcels/B0952/Roof garden"
+      ]
+    },
+    "B0953": {
+      "name": "联泰超总湾低层院落 · 北起第1排西起第3座",
+      "triangles": 320,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0953/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/B0953/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/B0953/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/B0953/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/B0953/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0953/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/B0953/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/B0953/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/B0953/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/B0953/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0953/Planted terrace",
+        "Buildings/Registered eastern parcels/B0953/Roof garden"
+      ]
+    },
+    "B0954": {
+      "name": "联泰超总湾低层院落 · 北起第1排西起第2座",
+      "triangles": 304,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0954/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/B0954/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/B0954/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/B0954/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/B0954/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0954/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/B0954/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/B0954/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/B0954/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/B0954/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0954/Planted terrace",
+        "Buildings/Registered eastern parcels/B0954/Roof garden"
+      ]
+    },
+    "B0956": {
+      "name": "联泰超总湾国际中心 6栋（T6）",
+      "triangles": 620,
+      "z_m": [
+        0.19,
+        50.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0956/Tower/Slabs",
+        "Buildings/Registered eastern parcels/B0956/Tower/Glazing",
+        "Buildings/Registered eastern parcels/B0956/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/B0956/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/B0956/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0956/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/B0956/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/B0956/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/B0956/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/B0956/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0956/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/B0956/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/B0956/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/B0956/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/B0956/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "B0957": {
+      "name": "联泰超总湾国际中心 4栋（T4）",
+      "triangles": 2506,
+      "z_m": [
+        0.19,
+        244.6
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0957/Tower/Slabs",
+        "Buildings/Registered eastern parcels/B0957/Tower/Glazing",
+        "Buildings/Registered eastern parcels/B0957/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/B0957/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/B0957/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0957/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/B0957/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/B0957/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/B0957/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/B0957/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0957/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/B0957/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/B0957/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/B0957/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/B0957/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "B0958": {
+      "name": "联泰超总湾国际中心 3栋（T3）",
+      "triangles": 1404,
+      "z_m": [
+        0.19,
+        226.6
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/B0958/Tower/Slabs",
+        "Buildings/Registered eastern parcels/B0958/Tower/Glazing",
+        "Buildings/Registered eastern parcels/B0958/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/B0958/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/B0958/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0958/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/B0958/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/B0958/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/B0958/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/B0958/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/B0958/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/B0958/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/B0958/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/B0958/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/B0958/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "B1411": {
+      "name": "深铁万科瑧湾汇 A 至 F 栋共用基座",
+      "triangles": 734,
+      "z_m": [
+        0.18,
+        6.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B1411",
+        "Projects/HQ catalogue/B1411/Floor edges",
+        "Projects/HQ catalogue/B1411/Vertical fins",
+        "Projects/HQ catalogue/B1411/Section bands",
+        "Projects/HQ catalogue/B1411/Roof",
+        "Projects/HQ catalogue/B1411/Parapet"
+      ]
+    },
+    "B1436": {
+      "name": "中国电子深圳湾总部 · 内院架空连廊",
+      "triangles": 388,
+      "z_m": [
+        3.0,
+        8.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B1436/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B1436/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B1436/Floor edges"
+      ]
+    },
+    "B1502": {
+      "name": "中信金融中心 南区裙房与庭院",
+      "triangles": 6900,
+      "z_m": [
+        0.22,
+        15.0
+      ],
+      "mesh_parts": [
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 1",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 1/Profiles",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 1/Deck",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 1/Soffit",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Limestone ribbons",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Continuous terraces",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 2",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 2/Profiles",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 2/Deck",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 2/Soffit",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 3",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 3/Profiles",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 3/Deck",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Retail floor 3/Soffit",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Roof parapet",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Accessible roof",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Court paving",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Courtyard planted edges",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Courtyard planted edges/Deck",
+        "Projects/CITIC Financial Center/B1502 Shared south podium/Courtyard planted edges/Soffit"
+      ]
+    },
+    "B1503": {
+      "name": "中信金融中心 西侧裙房",
+      "triangles": 452,
+      "z_m": [
+        0.22,
+        15.0
+      ],
+      "mesh_parts": [
+        "Projects/CITIC Financial Center/B1503 West gallery/Gallery floor",
+        "Projects/CITIC Financial Center/B1503 West gallery/Gallery floor/Profiles",
+        "Projects/CITIC Financial Center/B1503 West gallery/Gallery floor/Deck",
+        "Projects/CITIC Financial Center/B1503 West gallery/Gallery floor/Soffit",
+        "Projects/CITIC Financial Center/B1503 West gallery/Rounded balcony",
+        "Projects/CITIC Financial Center/B1503 West gallery/Rounded balcony/Deck",
+        "Projects/CITIC Financial Center/B1503 West gallery/Rounded balcony/Soffit",
+        "Projects/CITIC Financial Center/B1503 West gallery/Roof paving"
+      ]
+    },
+    "B1525": {
+      "name": "B1525",
+      "triangles": 26,
+      "z_m": [
+        0.17,
+        12.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B1527": {
+      "name": "神州数码国际创新中心 · 南侧低层建筑",
+      "triangles": 370,
+      "z_m": [
+        0.18,
+        12.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B1527",
+        "Projects/HQ catalogue/B1527/Floor edges",
+        "Projects/HQ catalogue/B1527/Vertical fins",
+        "Projects/HQ catalogue/B1527/Section bands",
+        "Projects/HQ catalogue/B1527/Roof",
+        "Projects/HQ catalogue/B1527/Parapet"
+      ]
+    },
+    "B1530": {
+      "name": "B1530",
+      "triangles": 82,
+      "z_m": [
+        0.17,
+        12.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B1531": {
+      "name": "B1531",
+      "triangles": 26,
+      "z_m": [
+        0.17,
+        12.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B1534": {
+      "name": "B1534",
+      "triangles": 138,
+      "z_m": [
+        0.17,
+        12.0
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 3 1"
+      ]
+    },
+    "B2161": {
+      "name": "B2161",
+      "triangles": 578,
+      "z_m": [
+        0.17,
+        98.19
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B2163": {
+      "name": "中信红树湾南区5栋B座",
+      "triangles": 184,
+      "z_m": [
+        0.17,
+        98.153
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2163 中信红树湾南区5栋B座"
+      ]
+    },
+    "B2164": {
+      "name": "B2164",
+      "triangles": 730,
+      "z_m": [
+        0.17,
+        98.159
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B2165": {
+      "name": "中信红树湾北区-16栋",
+      "triangles": 196,
+      "z_m": [
+        0.17,
+        98.19
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2165 中信红树湾北区-16栋"
+      ]
+    },
+    "B2166": {
+      "name": "白石二道中信红树湾3期16栋A座",
+      "triangles": 116,
+      "z_m": [
+        0.17,
+        97.714
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2166 白石二道中信红树湾3期16栋A座"
+      ]
+    },
+    "B2224": {
+      "name": "深湾汇云中心 · 北侧低层配套建筑",
+      "triangles": 272,
+      "z_m": [
+        0.18,
+        23.05
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2224/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2224/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2224/Floor edges"
+      ]
+    },
+    "B2445": {
+      "name": "招商银行全球总部 西北配楼",
+      "triangles": 1770,
+      "z_m": [
+        0.3,
+        108.8
+      ],
+      "mesh_parts": [
+        "Projects/CMB Headquarters/Lot 2 north/Stepped bays",
+        "Projects/CMB Headquarters/Lot 2 north/Facade blades",
+        "Projects/CMB Headquarters/Lot 2 north/Roof garden"
+      ]
+    },
+    "B2446": {
+      "name": "招商银行全球总部 东北配楼",
+      "triangles": 1774,
+      "z_m": [
+        0.3,
+        108.8
+      ],
+      "mesh_parts": [
+        "Projects/CMB Headquarters/Lot 3 north/Stepped bays",
+        "Projects/CMB Headquarters/Lot 3 north/Facade blades",
+        "Projects/CMB Headquarters/Lot 3 north/Roof garden"
+      ]
+    },
+    "B2478": {
+      "name": "中信红树湾南区-7栋",
+      "triangles": 158,
+      "z_m": [
+        0.17,
+        94.249
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2478 中信红树湾南区-7栋"
+      ]
+    },
+    "B2479": {
+      "name": "中信红树湾南区-8栋A座",
+      "triangles": 266,
+      "z_m": [
+        0.17,
+        94.961
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2479 中信红树湾南区-8栋A座"
+      ]
+    },
+    "B2541": {
+      "name": "中国电子深圳湾总部 · 北区西塔（1A）",
+      "triangles": 1414,
+      "z_m": [
+        0.18,
+        149.6
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2541",
+        "Projects/HQ catalogue/B2541/Floor edges",
+        "Projects/HQ catalogue/B2541/Vertical fins",
+        "Projects/HQ catalogue/B2541/Roof",
+        "Projects/HQ catalogue/B2541/Roof coping",
+        "Projects/HQ catalogue/B2541/Roof services",
+        "Projects/HQ catalogue/B2541/Elevated gallery"
+      ]
+    },
+    "B2542": {
+      "name": "深铁万科瑧湾汇 C栋",
+      "triangles": 1284,
+      "z_m": [
+        6.0,
+        149.55
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2542",
+        "Projects/HQ catalogue/B2542/Floor edges",
+        "Projects/HQ catalogue/B2542/Stacked bays",
+        "Projects/HQ catalogue/B2542/Vertical fins",
+        "Projects/HQ catalogue/B2542/Roof",
+        "Projects/HQ catalogue/B2542/Roof coping"
+      ]
+    },
+    "B2543": {
+      "name": "深铁万科瑧湾汇 D栋",
+      "triangles": 1384,
+      "z_m": [
+        6.0,
+        149.55
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2543",
+        "Projects/HQ catalogue/B2543/Floor edges",
+        "Projects/HQ catalogue/B2543/Stacked bays",
+        "Projects/HQ catalogue/B2543/Vertical fins",
+        "Projects/HQ catalogue/B2543/Roof",
+        "Projects/HQ catalogue/B2543/Roof coping"
+      ]
+    },
+    "B2544": {
+      "name": "碳云智能总部 住宅及配套塔",
+      "triangles": 2451,
+      "z_m": [
+        0.17,
+        155.56
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B2544/Cylindrical residential tower",
+        "Buildings/Registered HQ design/B2544/Residential roof",
+        "Buildings/Registered HQ design/B2544/Rooftop garden"
+      ]
+    },
+    "B2555": {
+      "name": "深湾汇云中心西南侧街坊 · 低层共用基座",
+      "triangles": 32,
+      "z_m": [
+        0.18,
+        3.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2555/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2555/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2555/Floor edges"
+      ]
+    },
+    "B2629": {
+      "name": "恒力中心 · 裙房顶上部构件",
+      "triangles": 28,
+      "z_m": [
+        18.0,
+        24.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2629/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2629/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2629/Floor edges"
+      ]
+    },
+    "B2665": {
+      "name": "深铁万科瑧湾汇 F栋",
+      "triangles": 340,
+      "z_m": [
+        6.0,
+        97.65
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2665",
+        "Projects/HQ catalogue/B2665/Floor edges",
+        "Projects/HQ catalogue/B2665/Stacked bays",
+        "Projects/HQ catalogue/B2665/Vertical fins",
+        "Projects/HQ catalogue/B2665/Roof",
+        "Projects/HQ catalogue/B2665/Roof coping"
+      ]
+    },
+    "B2694": {
+      "name": "深铁万科瑧湾汇 B栋",
+      "triangles": 1036,
+      "z_m": [
+        6.0,
+        118.95
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2694",
+        "Projects/HQ catalogue/B2694/Floor edges",
+        "Projects/HQ catalogue/B2694/Stacked bays",
+        "Projects/HQ catalogue/B2694/Vertical fins",
+        "Projects/HQ catalogue/B2694/Roof",
+        "Projects/HQ catalogue/B2694/Roof coping"
+      ]
+    },
+    "B2728": {
+      "name": "神州数码国际创新中心 T1",
+      "triangles": 5722,
+      "z_m": [
+        0.18,
+        205.15
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2728/Window bays",
+        "Projects/HQ catalogue/B2728/Window bays/Recessed windows",
+        "Projects/HQ catalogue/B2728/Window bays/Roof",
+        "Projects/HQ catalogue/B2728/Sky terrace",
+        "Projects/HQ catalogue/B2728/Sky terrace/Recessed windows",
+        "Projects/HQ catalogue/B2728/Sky terrace/Roof",
+        "Projects/HQ catalogue/B2728/Roof coping"
+      ]
+    },
+    "B2748": {
+      "name": "中信金融中心 T2 副塔",
+      "triangles": 3084,
+      "z_m": [
+        15.01,
+        180.0
+      ],
+      "mesh_parts": [
+        "Projects/CITIC Financial Center/T2/Continuous rounded curtain wall",
+        "Projects/CITIC Financial Center/T2/Continuous rounded curtain wall/Profiles",
+        "Projects/CITIC Financial Center/T2/Floor joints and service bands",
+        "Projects/CITIC Financial Center/T2/Recessed crown glazing",
+        "Projects/CITIC Financial Center/T2/Recessed crown glazing/Profiles",
+        "Projects/CITIC Financial Center/T2/Recessed crown glazing/Deck",
+        "Projects/CITIC Financial Center/T2/Recessed crown glazing/Soffit",
+        "Projects/CITIC Financial Center/T2/Lantern fins",
+        "Projects/CITIC Financial Center/T2/Lantern fins/Profiles",
+        "Projects/CITIC Financial Center/T2/Parapet"
+      ]
+    },
+    "B2749": {
+      "name": "碳云智能总部 办公研发塔",
+      "triangles": 2936,
+      "z_m": [
+        0.17,
+        207.74
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B2749/Curved research tower",
+        "Buildings/Registered HQ design/B2749/Office roof"
+      ]
+    },
+    "B2761": {
+      "name": "汇云中心",
+      "triangles": 2824,
+      "z_m": [
+        1.079,
+        359.2
+      ],
+      "mesh_parts": [
+        "Projects/Huiyun Center/Glazing",
+        "Projects/Huiyun Center/Vertical reveals",
+        "Projects/Huiyun Center/Facade horizontals",
+        "Projects/Huiyun Center/Recessed trapezoid rim",
+        "Projects/Huiyun Center/Full-height chamfer posts",
+        "Projects/Huiyun Center/Crown side rails",
+        "Projects/Huiyun Center/Crown side glazing",
+        "Projects/Huiyun Center/Crown recessed glazing",
+        "Projects/Huiyun Center/Upper glazed enclosure",
+        "Projects/Huiyun Center/Recessed solid roof",
+        "Projects/Huiyun Center/Roof perimeter curb",
+        "Projects/Huiyun Center/Crown window bands",
+        "Projects/Huiyun Center/Lobby perimeter",
+        "Projects/Huiyun Center/Entrance eaves"
+      ]
+    },
+    "B2768": {
+      "name": "中兴通讯总部 第二栋",
+      "triangles": 1648,
+      "z_m": [
+        0.19,
+        83.8
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B2768/Office tower and podium belts"
+      ]
+    },
+    "B2769": {
+      "name": "中兴通讯总部 主塔",
+      "triangles": 3548,
+      "z_m": [
+        0.2,
+        215.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/B2769/Cantilever and sloping crown",
+        "Buildings/Registered HQ design/B2769/Sloping roof",
+        "Buildings/Registered HQ design/B2769/Horizontal upper bands"
+      ]
+    },
+    "B2791": {
+      "name": "深湾汇云中心西南侧街坊 · 南侧长楼",
+      "triangles": 44,
+      "z_m": [
+        3.0,
+        19.35
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2791/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2791/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2791/Floor edges"
+      ]
+    },
+    "B2792": {
+      "name": "深湾汇云中心西南侧街坊 · 北侧西楼",
+      "triangles": 44,
+      "z_m": [
+        3.0,
+        19.35
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2792/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2792/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2792/Floor edges"
+      ]
+    },
+    "B2793": {
+      "name": "深湾汇云中心西南侧街坊 · 北侧中楼",
+      "triangles": 44,
+      "z_m": [
+        3.0,
+        19.35
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2793/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2793/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2793/Floor edges"
+      ]
+    },
+    "B2794": {
+      "name": "深湾汇云中心西南侧街坊 · 北侧东楼",
+      "triangles": 68,
+      "z_m": [
+        3.0,
+        19.35
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2794/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2794/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2794/Floor edges"
+      ]
+    },
+    "B2797": {
+      "name": "招商银行全球总部配楼 · 西南侧翼",
+      "triangles": 680,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2797/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2797/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2797/Floor edges"
+      ]
+    },
+    "B2798": {
+      "name": "招商银行全球总部配楼 · 东南侧翼",
+      "triangles": 628,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2798/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2798/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2798/Floor edges"
+      ]
+    },
+    "B2799": {
+      "name": "招商银行全球总部配楼 · 东中连接体",
+      "triangles": 636,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2799/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2799/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2799/Floor edges"
+      ]
+    },
+    "B2800": {
+      "name": "招商银行全球总部配楼 · 西中连接体",
+      "triangles": 708,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2800/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2800/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2800/Floor edges"
+      ]
+    },
+    "B2801": {
+      "name": "招商银行全球总部配楼 · 西北侧翼",
+      "triangles": 188,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2801/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2801/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2801/Floor edges"
+      ]
+    },
+    "B2802": {
+      "name": "招商银行全球总部配楼 · 东北侧翼",
+      "triangles": 172,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2802/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2802/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2802/Floor edges"
+      ]
+    },
+    "B2855": {
+      "name": "中国电子深圳湾总部 · 南区中段连接体",
+      "triangles": 520,
+      "z_m": [
+        0.18,
+        60.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2855",
+        "Projects/HQ catalogue/B2855/Floor edges",
+        "Projects/HQ catalogue/B2855/Vertical fins",
+        "Projects/HQ catalogue/B2855/Roof",
+        "Projects/HQ catalogue/B2855/Parapet"
+      ]
+    },
+    "B2856": {
+      "name": "中国电子深圳湾总部 · 南区西楼",
+      "triangles": 974,
+      "z_m": [
+        0.18,
+        60.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2856",
+        "Projects/HQ catalogue/B2856/Floor edges",
+        "Projects/HQ catalogue/B2856/Vertical fins",
+        "Projects/HQ catalogue/B2856/Roof",
+        "Projects/HQ catalogue/B2856/Roof coping",
+        "Projects/HQ catalogue/B2856/Roof services",
+        "Projects/HQ catalogue/B2856/Elevated gallery"
+      ]
+    },
+    "B2857": {
+      "name": "中国电子深圳湾总部 · 南区东楼",
+      "triangles": 964,
+      "z_m": [
+        0.18,
+        60.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2857",
+        "Projects/HQ catalogue/B2857/Floor edges",
+        "Projects/HQ catalogue/B2857/Vertical fins",
+        "Projects/HQ catalogue/B2857/Roof",
+        "Projects/HQ catalogue/B2857/Roof coping",
+        "Projects/HQ catalogue/B2857/Roof services"
+      ]
+    },
+    "B2858": {
+      "name": "中国电子深圳湾总部 · 北区弧形中段",
+      "triangles": 438,
+      "z_m": [
+        0.18,
+        60.0
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2858/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2858/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2858/Floor edges"
+      ]
+    },
+    "B2861": {
+      "name": "招商银行全球总部 西南配楼",
+      "triangles": 1174,
+      "z_m": [
+        0.3,
+        80.0
+      ],
+      "mesh_parts": [
+        "Projects/CMB Headquarters/Lot 2 south/Stepped bays",
+        "Projects/CMB Headquarters/Lot 2 south/Facade blades",
+        "Projects/CMB Headquarters/Lot 2 south/Roof garden"
+      ]
+    },
+    "B2862": {
+      "name": "招商银行全球总部 东南配楼",
+      "triangles": 1154,
+      "z_m": [
+        0.3,
+        80.0
+      ],
+      "mesh_parts": [
+        "Projects/CMB Headquarters/Lot 3 south/Stepped bays",
+        "Projects/CMB Headquarters/Lot 3 south/Facade blades",
+        "Projects/CMB Headquarters/Lot 3 south/Roof garden"
+      ]
+    },
+    "B2886": {
+      "name": "深铁万科瑧湾汇 E栋",
+      "triangles": 1232,
+      "z_m": [
+        6.0,
+        145.35
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2886",
+        "Projects/HQ catalogue/B2886/Floor edges",
+        "Projects/HQ catalogue/B2886/Stacked bays",
+        "Projects/HQ catalogue/B2886/Vertical fins",
+        "Projects/HQ catalogue/B2886/Roof",
+        "Projects/HQ catalogue/B2886/Roof coping"
+      ]
+    },
+    "B2946": {
+      "name": "深湾汇云中心 · 主塔西侧低层建筑",
+      "triangles": 320,
+      "z_m": [
+        0.18,
+        28.25
+      ],
+      "mesh_parts": [
+        "Buildings/Resolved HQ podium joints/B2946/Roof and soffit",
+        "Buildings/Resolved HQ podium joints/B2946/Registered outside walls",
+        "Buildings/Resolved HQ podium joints/B2946/Floor edges"
+      ]
+    },
+    "B2957": {
+      "name": "恒力中心 · 文化塔",
+      "triangles": 1372,
+      "z_m": [
+        18.0,
+        74.8
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B2957",
+        "Projects/HQ catalogue/B2957/Floor edges",
+        "Projects/HQ catalogue/B2957/Recessed windows",
+        "Projects/HQ catalogue/B2957/Vertical fins",
+        "Projects/HQ catalogue/B2957/Roof",
+        "Projects/HQ catalogue/B2957/Roof parapet"
+      ]
+    },
+    "B2991": {
+      "name": "B2991",
+      "triangles": 82,
+      "z_m": [
+        0.17,
+        58.674
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B2992": {
+      "name": "B2992",
+      "triangles": 82,
+      "z_m": [
+        0.17,
+        58.674
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B2998": {
+      "name": "B2998",
+      "triangles": 90,
+      "z_m": [
+        0.17,
+        101.39
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B2999": {
+      "name": "红树西岸-2栋",
+      "triangles": 110,
+      "z_m": [
+        0.17,
+        101.39
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B2999 红树西岸-2栋"
+      ]
+    },
+    "B3000": {
+      "name": "B3000",
+      "triangles": 106,
+      "z_m": [
+        0.17,
+        101.39
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B3002": {
+      "name": "红树西岸-3栋",
+      "triangles": 118,
+      "z_m": [
+        0.17,
+        101.39
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/B3002 红树西岸-3栋"
+      ]
+    },
+    "B3005": {
+      "name": "B3005",
+      "triangles": 90,
+      "z_m": [
+        0.17,
+        101.39
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 1"
+      ]
+    },
+    "B3007": {
+      "name": "B3007",
+      "triangles": 80,
+      "z_m": [
+        40.0,
+        100.221
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B3008": {
+      "name": "B3008",
+      "triangles": 84,
+      "z_m": [
+        40.0,
+        100.769
+      ],
+      "mesh_parts": [
+        "Buildings/Map inventory/Sector 2 0"
+      ]
+    },
+    "B3011": {
+      "name": "深铁万科瑧湾汇 A栋",
+      "triangles": 1018,
+      "z_m": [
+        6.0,
+        115.65
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3011",
+        "Projects/HQ catalogue/B3011/Floor edges",
+        "Projects/HQ catalogue/B3011/Stacked bays",
+        "Projects/HQ catalogue/B3011/Vertical fins",
+        "Projects/HQ catalogue/B3011/Roof",
+        "Projects/HQ catalogue/B3011/Roof coping"
+      ]
+    },
+    "B3012": {
+      "name": "神州数码国际创新中心 T2",
+      "triangles": 5948,
+      "z_m": [
+        0.18,
+        206.35
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3012/Window bays",
+        "Projects/HQ catalogue/B3012/Window bays/Recessed windows",
+        "Projects/HQ catalogue/B3012/Window bays/Roof",
+        "Projects/HQ catalogue/B3012/Sky terrace",
+        "Projects/HQ catalogue/B3012/Sky terrace/Recessed windows",
+        "Projects/HQ catalogue/B3012/Sky terrace/Roof",
+        "Projects/HQ catalogue/B3012/Roof coping"
+      ]
+    },
+    "B3013": {
+      "name": "深湾汇云中心 G栋 · 深铁万科瑧湾汇 G栋",
+      "triangles": 508,
+      "z_m": [
+        0.18,
+        154.3
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3013",
+        "Projects/HQ catalogue/B3013/Floor edges",
+        "Projects/HQ catalogue/B3013/Vertical fins",
+        "Projects/HQ catalogue/B3013/Section bands",
+        "Projects/HQ catalogue/B3013/Roof",
+        "Projects/HQ catalogue/B3013/Roof coping"
+      ]
+    },
+    "B3014": {
+      "name": "深湾汇云中心 H栋 · 深铁万科瑧湾汇 H栋",
+      "triangles": 502,
+      "z_m": [
+        0.18,
+        154.3
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3014",
+        "Projects/HQ catalogue/B3014/Floor edges",
+        "Projects/HQ catalogue/B3014/Vertical fins",
+        "Projects/HQ catalogue/B3014/Section bands",
+        "Projects/HQ catalogue/B3014/Roof",
+        "Projects/HQ catalogue/B3014/Roof coping"
+      ]
+    },
+    "B3018": {
+      "name": "中信金融中心 T1 主塔",
+      "triangles": 5388,
+      "z_m": [
+        0.17,
+        304.3
+      ],
+      "mesh_parts": [
+        "Projects/CITIC Financial Center/T1/Continuous rounded curtain wall",
+        "Projects/CITIC Financial Center/T1/Continuous rounded curtain wall/Profiles",
+        "Projects/CITIC Financial Center/T1/Floor joints and service bands",
+        "Projects/CITIC Financial Center/T1/Recessed crown glazing",
+        "Projects/CITIC Financial Center/T1/Recessed crown glazing/Profiles",
+        "Projects/CITIC Financial Center/T1/Recessed crown glazing/Deck",
+        "Projects/CITIC Financial Center/T1/Recessed crown glazing/Soffit",
+        "Projects/CITIC Financial Center/T1/Lantern fins",
+        "Projects/CITIC Financial Center/T1/Lantern fins/Profiles",
+        "Projects/CITIC Financial Center/T1/Parapet"
+      ]
+    },
+    "B3021": {
+      "name": "招商银行全球总部 主塔",
+      "triangles": 16984,
+      "z_m": [
+        0.45,
+        393.0
+      ],
+      "mesh_parts": [
+        "Projects/CMB Headquarters/Main tower/Northern rectilinear returns",
+        "Projects/CMB Headquarters/Main tower/South scalloped curtain wall",
+        "Projects/CMB Headquarters/Main tower/North rectilinear bays",
+        "Projects/CMB Headquarters/Main tower/Steel profiles and fine diagonals",
+        "Projects/CMB Headquarters/Main tower/North coursing",
+        "Projects/CMB Headquarters/Main tower/Recessed atria and terraces",
+        "Projects/CMB Headquarters/Main tower/Stepped terrace gardens"
+      ]
+    },
+    "B3028": {
+      "name": "恒力中心双塔共用裙房",
+      "triangles": 1364,
+      "z_m": [
+        0.18,
+        18.0
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3028",
+        "Projects/HQ catalogue/B3028/Floor edges",
+        "Projects/HQ catalogue/B3028/Recessed windows",
+        "Projects/HQ catalogue/B3028/Vertical fins",
+        "Projects/HQ catalogue/B3028/Roof",
+        "Projects/HQ catalogue/B3028/Parapet"
+      ]
+    },
+    "B3029": {
+      "name": "中国电子深圳湾总部 · 北区东塔",
+      "triangles": 1048,
+      "z_m": [
+        0.18,
+        95.7
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3029",
+        "Projects/HQ catalogue/B3029/Floor edges",
+        "Projects/HQ catalogue/B3029/Vertical fins",
+        "Projects/HQ catalogue/B3029/Roof",
+        "Projects/HQ catalogue/B3029/Roof coping",
+        "Projects/HQ catalogue/B3029/Roof services"
+      ]
+    },
+    "B3030": {
+      "name": "恒力中心 · 办公塔",
+      "triangles": 7852,
+      "z_m": [
+        18.0,
+        249.1
+      ],
+      "mesh_parts": [
+        "Projects/HQ catalogue/B3030",
+        "Projects/HQ catalogue/B3030/Floor edges",
+        "Projects/HQ catalogue/B3030/Recessed windows",
+        "Projects/HQ catalogue/B3030/Vertical fins",
+        "Projects/HQ catalogue/B3030/Roof",
+        "Projects/HQ catalogue/B3030/Roof parapet"
+      ]
+    },
+    "G0010": {
+      "name": "G0010",
+      "triangles": 16,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0016": {
+      "name": "G0016",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0035": {
+      "name": "G0035",
+      "triangles": 34,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0056": {
+      "name": "G0056",
+      "triangles": 46,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0073": {
+      "name": "G0073",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0084": {
+      "name": "G0084",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0125": {
+      "name": "G0125",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0131": {
+      "name": "G0131",
+      "triangles": 28,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0145": {
+      "name": "G0145",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        7.2
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0261": {
+      "name": "G0261",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0293": {
+      "name": "G0293",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0320": {
+      "name": "G0320",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0329": {
+      "name": "G0329",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0337": {
+      "name": "G0337",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0338": {
+      "name": "G0338",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0368": {
+      "name": "G0368",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0396": {
+      "name": "G0396",
+      "triangles": 16,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0401": {
+      "name": "G0401",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0428": {
+      "name": "G0428",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0440": {
+      "name": "G0440",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0458": {
+      "name": "G0458",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0508": {
+      "name": "G0508",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0511": {
+      "name": "G0511",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0529": {
+      "name": "G0529",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0544": {
+      "name": "G0544",
+      "triangles": 16,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0549": {
+      "name": "G0549",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0604": {
+      "name": "G0604",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0616": {
+      "name": "G0616",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0670": {
+      "name": "G0670",
+      "triangles": 22,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0678": {
+      "name": "G0678",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0690": {
+      "name": "G0690",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0701": {
+      "name": "G0701",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0727": {
+      "name": "G0727",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0746": {
+      "name": "G0746",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0752": {
+      "name": "G0752",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0753": {
+      "name": "G0753",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0807": {
+      "name": "G0807",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0831": {
+      "name": "G0831",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0844": {
+      "name": "G0844",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0855": {
+      "name": "G0855",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G0904": {
+      "name": "G0904",
+      "triangles": 16,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0921": {
+      "name": "G0921",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G0996": {
+      "name": "G0996",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1004": {
+      "name": "G1004",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1031": {
+      "name": "G1031",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1090": {
+      "name": "G1090",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1101": {
+      "name": "G1101",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1189": {
+      "name": "G1189",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1325": {
+      "name": "G1325",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1331": {
+      "name": "G1331",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        5.0
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1403": {
+      "name": "G1403",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1408": {
+      "name": "G1408",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1492": {
+      "name": "G1492",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1510": {
+      "name": "G1510",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1524": {
+      "name": "G1524",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1571": {
+      "name": "G1571",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1623": {
+      "name": "G1623",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1659": {
+      "name": "G1659",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1699": {
+      "name": "G1699",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1719": {
+      "name": "G1719",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1732": {
+      "name": "G1732",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G1806": {
+      "name": "G1806",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1884": {
+      "name": "G1884",
+      "triangles": 16,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G1976": {
+      "name": "G1976",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G2031": {
+      "name": "G2031",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2091": {
+      "name": "G2091",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G2126": {
+      "name": "G2126",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G2170": {
+      "name": "G2170",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2196": {
+      "name": "G2196",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2212": {
+      "name": "G2212",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2232": {
+      "name": "G2232",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G2257": {
+      "name": "G2257",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/HQ blocks"
+      ]
+    },
+    "G2403": {
+      "name": "G2403",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2419": {
+      "name": "G2419",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "G2438": {
+      "name": "G2438",
+      "triangles": 10,
+      "z_m": [
+        0.15,
+        3.4
+      ],
+      "mesh_parts": [
+        "Buildings/Supplemental mapped footprints/Regional context"
+      ]
+    },
+    "H0101": {
+      "name": "中兴通讯总部 深圳潮 Shenzhen Wave（总部与展厅）",
+      "triangles": 18292,
+      "z_m": [
+        0.091,
+        59.9
+      ],
+      "mesh_parts": [
+        "Buildings/Registered HQ design/H0101/Raised cores",
+        "Buildings/Registered HQ design/H0101/Inclined support",
+        "Buildings/Registered HQ design/H0101/Entry funnel",
+        "Buildings/Registered HQ design/H0101/Funnel diamond lattice",
+        "Buildings/Registered HQ design/H0101/Alternating office plates",
+        "Buildings/Registered HQ design/H0101/Silver plate edges",
+        "Buildings/Registered HQ design/H0101/Shadow joints",
+        "Buildings/Registered HQ design/H0101/Dome diagrid",
+        "Buildings/Registered HQ design/H0101/Promenade dome"
+      ]
+    },
+    "H0300": {
+      "name": "TCL 华星光电总部（TCL 中心）",
+      "triangles": 1674,
+      "z_m": [
+        0.16,
+        98.6
+      ],
+      "mesh_parts": [
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Curtain wall",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Arch rims and facade fins",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Storey joints",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Recessed reveals",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Falling roof plane",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Inner garden lobby",
+        "Projects/Headquarters catalogue/H0300 TCL CSOT/Shaded courtyard floor"
+      ]
+    },
+    "H0301": {
+      "name": "迎海超总基地北塔（深铁超总基地北塔）",
+      "triangles": 16316,
+      "z_m": [
+        0.19,
+        249.3
+      ],
+      "mesh_parts": [
+        "Projects/Yinghai/H0301 Yinghai North/Four-storey podium glass",
+        "Projects/Yinghai/H0301 Yinghai North/Podium floor bands",
+        "Projects/Yinghai/H0301 Yinghai North/Podium terrace",
+        "Projects/Yinghai/H0301 Yinghai North/Tower vision glass",
+        "Projects/Yinghai/H0301 Yinghai North/Reversing facade folds",
+        "Projects/Yinghai/H0301 Yinghai North/Tower vertical frames",
+        "Projects/Yinghai/H0301 Yinghai North/Tower floor divisions",
+        "Projects/Yinghai/H0301 Yinghai North/Crown lantern",
+        "Projects/Yinghai/H0301 Yinghai North/Crown fascia",
+        "Projects/Yinghai/H0301 Yinghai North/Crown roof"
+      ]
+    },
+    "H0302": {
+      "name": "传音控股全球总部（概念推演）",
+      "triangles": 13852,
+      "z_m": [
+        0.2,
+        146.0
+      ],
+      "mesh_parts": [
+        "Projects/Bay frontage/H0302 Transsion headquarters/Street level glass",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Entrance canopy",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Mixed use podium",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Podium rooftop",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Colonnade",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Office floors",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Recessed transfer floor",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Upper levels",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Crown",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Crown coping",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Vertical sun screens",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Window heads",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Setback eaves",
+        "Projects/Bay frontage/H0302 Transsion headquarters/Planted terraces"
+      ]
+    },
+    "H0310": {
+      "name": "深超总 C 塔 C1 东塔",
+      "triangles": 24328,
+      "z_m": [
+        0.0,
+        400.0
+      ],
+      "mesh_parts": [
+        "Projects/Tower C/C1/Continuous tower glazing",
+        "Projects/Tower C/C1/Vertical mullions",
+        "Projects/Tower C/C1/Horizontal glass joints",
+        "Projects/Tower C/C1/Recessed rooftop",
+        "Projects/Tower C/C1/Recessed lantern",
+        "Projects/Tower C/C1/Lantern fins",
+        "Projects/Tower C/C1/Occupied stepped podium/Curtain wall",
+        "Projects/Tower C/C1/Occupied stepped podium/Reflecting panes",
+        "Projects/Tower C/C1/Occupied stepped podium/Bronze floor fascias",
+        "Projects/Tower C/C1/Occupied stepped podium/Occupied floor soffits",
+        "Projects/Tower C/C1/Occupied stepped podium/Planted ledges",
+        "Projects/Tower C/C1/Occupied stepped podium/Glazing mullions"
+      ]
+    },
+    "H0311": {
+      "name": "深超总 C 塔 C2 西塔",
+      "triangles": 29774,
+      "z_m": [
+        0.0,
+        336.0
+      ],
+      "mesh_parts": [
+        "Projects/Tower C/C2/Continuous tower glazing",
+        "Projects/Tower C/C2/Vertical mullions",
+        "Projects/Tower C/C2/Horizontal glass joints",
+        "Projects/Tower C/C2/Recessed rooftop",
+        "Projects/Tower C/C2/Recessed lantern",
+        "Projects/Tower C/C2/Lantern fins",
+        "Projects/Tower C/C2/Occupied stepped podium/Curtain wall",
+        "Projects/Tower C/C2/Occupied stepped podium/Reflecting panes",
+        "Projects/Tower C/C2/Occupied stepped podium/Bronze floor fascias",
+        "Projects/Tower C/C2/Occupied stepped podium/Occupied floor soffits",
+        "Projects/Tower C/C2/Occupied stepped podium/Planted ledges",
+        "Projects/Tower C/C2/Occupied stepped podium/Glazing mullions"
+      ]
+    },
+    "H0400": {
+      "name": "中信金融中心 中庭裙房与弧形网格天幕",
+      "triangles": 17972,
+      "z_m": [
+        0.22,
+        72.062
+      ],
+      "mesh_parts": [
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Inhabited north podium",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Inhabited north podium/Profiles",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Inhabited north podium/Deck",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Inhabited north podium/Soffit",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/North podium stone fascias",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/North podium stone fascias/Deck",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/North podium stone fascias/Soffit",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Swept north-south roof ribs",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Transverse roof bars",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Roof diagonals",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Curved eave uprights",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Partial skylight glazing",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Outer atrium side walls",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Side transoms",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Atrium supports",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Lower exhibition gallery",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Lower exhibition gallery/Profiles",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Lower exhibition gallery/Deck",
+        "Projects/CITIC Financial Center/H0400 South atrium and gridded roof/Lower exhibition gallery/Soffit"
+      ]
+    },
+    "H0410": {
+      "name": "深超总 C 塔·四角裙房与开放庭院",
+      "triangles": 5877,
+      "z_m": [
+        0.3,
+        16.847
+      ],
+      "mesh_parts": [
+        "Projects/Tower C/H0410 Four-corner podium/Southwest terrace wing/Glazed rooms",
+        "Projects/Tower C/H0410 Four-corner podium/Southwest terrace wing/Storefront profiles",
+        "Projects/Tower C/H0410 Four-corner podium/Southwest terrace wing/Returned floor fascias",
+        "Projects/Tower C/H0410 Four-corner podium/Southwest terrace wing/Roof paving",
+        "Projects/Tower C/H0410 Four-corner podium/Southwest terrace wing/Planted terrace ledges",
+        "Projects/Tower C/H0410 Four-corner podium/Northwest terrace wing/Glazed rooms",
+        "Projects/Tower C/H0410 Four-corner podium/Northwest terrace wing/Storefront profiles",
+        "Projects/Tower C/H0410 Four-corner podium/Northwest terrace wing/Returned floor fascias",
+        "Projects/Tower C/H0410 Four-corner podium/Northwest terrace wing/Roof paving",
+        "Projects/Tower C/H0410 Four-corner podium/Northwest terrace wing/Planted terrace ledges",
+        "Projects/Tower C/H0410 Four-corner podium/Northeast terrace wing/Glazed rooms",
+        "Projects/Tower C/H0410 Four-corner podium/Northeast terrace wing/Storefront profiles",
+        "Projects/Tower C/H0410 Four-corner podium/Northeast terrace wing/Returned floor fascias",
+        "Projects/Tower C/H0410 Four-corner podium/Northeast terrace wing/Roof paving",
+        "Projects/Tower C/H0410 Four-corner podium/Northeast terrace wing/Planted terrace ledges",
+        "Projects/Tower C/H0410 Four-corner podium/Southeast terrace wing/Glazed rooms",
+        "Projects/Tower C/H0410 Four-corner podium/Southeast terrace wing/Storefront profiles",
+        "Projects/Tower C/H0410 Four-corner podium/Southeast terrace wing/Returned floor fascias",
+        "Projects/Tower C/H0410 Four-corner podium/Southeast terrace wing/Roof paving",
+        "Projects/Tower C/H0410 Four-corner podium/Southeast terrace wing/Planted terrace ledges",
+        "Projects/Tower C/H0410 Four-corner podium/Passage paving",
+        "Projects/Tower C/H0410 Four-corner podium/Perimeter garden courts"
+      ]
+    },
+    "H0420": {
+      "name": "大疆总部南侧文化设施用地 · 西馆",
+      "triangles": 524,
+      "z_m": [
+        0.2,
+        18.2
+      ],
+      "mesh_parts": [
+        "Projects/Bay frontage/H0420 Cultural pavilion/Arcade",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Gallery floor rim",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Courtyard walls",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Gallery mullions",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Lower roof",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Setback upper floor",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Upper bay posts",
+        "Projects/Bay frontage/H0420 Cultural pavilion/Parapet"
+      ]
+    },
+    "H0421": {
+      "name": "大疆总部南侧文化设施用地 · 东馆",
+      "triangles": 538,
+      "z_m": [
+        0.2,
+        20.1
+      ],
+      "mesh_parts": [
+        "Projects/Bay frontage/H0421 Cultural pavilion/Arcade",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Gallery floor rim",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Courtyard walls",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Gallery mullions",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Lower roof",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Setback upper floor",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Upper bay posts",
+        "Projects/Bay frontage/H0421 Cultural pavilion/Parapet"
+      ]
+    },
+    "H0505": {
+      "name": "联泰超总湾国际中心 5栋（T5）",
+      "triangles": 660,
+      "z_m": [
+        0.19,
+        70.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0505/Tower/Slabs",
+        "Buildings/Registered eastern parcels/H0505/Tower/Glazing",
+        "Buildings/Registered eastern parcels/H0505/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/H0505/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/H0505/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0505/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/H0505/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/H0505/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/H0505/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/H0505/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0505/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/H0505/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/H0505/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/H0505/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/H0505/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "H0511": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第1座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0511/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0511/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0511/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0511/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0511/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0511/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0511/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0511/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0511/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0511/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0511/Planted terrace",
+        "Buildings/Registered eastern parcels/H0511/Roof garden"
+      ]
+    },
+    "H0512": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第2座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0512/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0512/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0512/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0512/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0512/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0512/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0512/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0512/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0512/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0512/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0512/Planted terrace",
+        "Buildings/Registered eastern parcels/H0512/Roof garden"
+      ]
+    },
+    "H0513": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第3座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0513/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0513/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0513/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0513/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0513/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0513/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0513/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0513/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0513/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0513/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0513/Planted terrace",
+        "Buildings/Registered eastern parcels/H0513/Roof garden"
+      ]
+    },
+    "H0514": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第4座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0514/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0514/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0514/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0514/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0514/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0514/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0514/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0514/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0514/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0514/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0514/Planted terrace",
+        "Buildings/Registered eastern parcels/H0514/Roof garden"
+      ]
+    },
+    "H0515": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第5座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0515/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0515/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0515/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0515/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0515/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0515/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0515/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0515/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0515/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0515/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0515/Planted terrace",
+        "Buildings/Registered eastern parcels/H0515/Roof garden"
+      ]
+    },
+    "H0516": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第6座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0516/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0516/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0516/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0516/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0516/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0516/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0516/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0516/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0516/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0516/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0516/Planted terrace",
+        "Buildings/Registered eastern parcels/H0516/Roof garden"
+      ]
+    },
+    "H0517": {
+      "name": "联泰超总湾低层院落 · 北起第2排西起第7座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0517/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0517/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0517/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0517/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0517/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0517/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0517/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0517/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0517/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0517/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0517/Planted terrace",
+        "Buildings/Registered eastern parcels/H0517/Roof garden"
+      ]
+    },
+    "H0520": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第1座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0520/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0520/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0520/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0520/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0520/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0520/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0520/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0520/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0520/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0520/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0520/Planted terrace",
+        "Buildings/Registered eastern parcels/H0520/Roof garden"
+      ]
+    },
+    "H0521": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第2座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0521/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0521/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0521/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0521/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0521/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0521/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0521/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0521/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0521/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0521/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0521/Planted terrace",
+        "Buildings/Registered eastern parcels/H0521/Roof garden"
+      ]
+    },
+    "H0522": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第3座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0522/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0522/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0522/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0522/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0522/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0522/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0522/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0522/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0522/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0522/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0522/Planted terrace",
+        "Buildings/Registered eastern parcels/H0522/Roof garden"
+      ]
+    },
+    "H0523": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第4座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0523/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0523/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0523/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0523/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0523/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0523/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0523/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0523/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0523/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0523/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0523/Planted terrace",
+        "Buildings/Registered eastern parcels/H0523/Roof garden"
+      ]
+    },
+    "H0524": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第5座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0524/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0524/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0524/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0524/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0524/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0524/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0524/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0524/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0524/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0524/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0524/Planted terrace",
+        "Buildings/Registered eastern parcels/H0524/Roof garden"
+      ]
+    },
+    "H0525": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第6座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0525/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0525/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0525/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0525/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0525/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0525/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0525/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0525/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0525/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0525/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0525/Planted terrace",
+        "Buildings/Registered eastern parcels/H0525/Roof garden"
+      ]
+    },
+    "H0526": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第7座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0526/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0526/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0526/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0526/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0526/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0526/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0526/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0526/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0526/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0526/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0526/Planted terrace",
+        "Buildings/Registered eastern parcels/H0526/Roof garden"
+      ]
+    },
+    "H0527": {
+      "name": "联泰超总湾低层院落 · 北起第3排西起第8座",
+      "triangles": 248,
+      "z_m": [
+        0.18,
+        18.2
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0527/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0527/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0527/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0527/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0527/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0527/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0527/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0527/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0527/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0527/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0527/Planted terrace",
+        "Buildings/Registered eastern parcels/H0527/Roof garden"
+      ]
+    },
+    "H0529": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第1座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0529/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0529/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0529/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0529/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0529/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0529/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0529/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0529/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0529/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0529/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0529/Planted terrace",
+        "Buildings/Registered eastern parcels/H0529/Upper roof coping"
+      ]
+    },
+    "H0530": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第2座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0530/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0530/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0530/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0530/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0530/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0530/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0530/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0530/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0530/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0530/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0530/Planted terrace",
+        "Buildings/Registered eastern parcels/H0530/Upper roof coping"
+      ]
+    },
+    "H0531": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第3座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0531/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0531/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0531/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0531/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0531/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0531/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0531/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0531/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0531/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0531/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0531/Planted terrace",
+        "Buildings/Registered eastern parcels/H0531/Upper roof coping"
+      ]
+    },
+    "H0532": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第4座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0532/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0532/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0532/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0532/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0532/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0532/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0532/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0532/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0532/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0532/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0532/Planted terrace",
+        "Buildings/Registered eastern parcels/H0532/Upper roof coping"
+      ]
+    },
+    "H0533": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第5座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0533/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0533/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0533/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0533/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0533/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0533/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0533/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0533/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0533/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0533/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0533/Planted terrace",
+        "Buildings/Registered eastern parcels/H0533/Upper roof coping"
+      ]
+    },
+    "H0534": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第6座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0534/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0534/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0534/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0534/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0534/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0534/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0534/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0534/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0534/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0534/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0534/Planted terrace",
+        "Buildings/Registered eastern parcels/H0534/Upper roof coping"
+      ]
+    },
+    "H0535": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第7座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0535/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0535/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0535/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0535/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0535/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0535/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0535/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0535/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0535/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0535/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0535/Planted terrace",
+        "Buildings/Registered eastern parcels/H0535/Upper roof coping"
+      ]
+    },
+    "H0536": {
+      "name": "联泰超总湾低层院落 · 北起第4排西起第8座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0536/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0536/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0536/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0536/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0536/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0536/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0536/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0536/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0536/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0536/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0536/Planted terrace",
+        "Buildings/Registered eastern parcels/H0536/Upper roof coping"
+      ]
+    },
+    "H0538": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第1座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0538/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0538/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0538/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0538/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0538/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0538/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0538/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0538/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0538/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0538/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0538/Planted terrace",
+        "Buildings/Registered eastern parcels/H0538/Upper roof coping"
+      ]
+    },
+    "H0539": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第2座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0539/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0539/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0539/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0539/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0539/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0539/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0539/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0539/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0539/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0539/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0539/Planted terrace",
+        "Buildings/Registered eastern parcels/H0539/Upper roof coping"
+      ]
+    },
+    "H0540": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第3座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0540/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0540/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0540/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0540/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0540/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0540/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0540/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0540/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0540/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0540/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0540/Planted terrace",
+        "Buildings/Registered eastern parcels/H0540/Upper roof coping"
+      ]
+    },
+    "H0541": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第4座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0541/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0541/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0541/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0541/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0541/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0541/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0541/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0541/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0541/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0541/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0541/Planted terrace",
+        "Buildings/Registered eastern parcels/H0541/Upper roof coping"
+      ]
+    },
+    "H0542": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第5座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0542/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0542/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0542/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0542/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0542/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0542/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0542/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0542/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0542/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0542/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0542/Planted terrace",
+        "Buildings/Registered eastern parcels/H0542/Upper roof coping"
+      ]
+    },
+    "H0543": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第6座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0543/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0543/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0543/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0543/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0543/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0543/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0543/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0543/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0543/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0543/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0543/Planted terrace",
+        "Buildings/Registered eastern parcels/H0543/Upper roof coping"
+      ]
+    },
+    "H0544": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第7座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0544/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0544/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0544/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0544/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0544/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0544/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0544/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0544/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0544/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0544/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0544/Planted terrace",
+        "Buildings/Registered eastern parcels/H0544/Upper roof coping"
+      ]
+    },
+    "H0545": {
+      "name": "联泰超总湾低层院落 · 北起第5排西起第8座",
+      "triangles": 324,
+      "z_m": [
+        0.18,
+        16.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0545/Ground storeys/Slabs",
+        "Buildings/Registered eastern parcels/H0545/Ground storeys/Glazing",
+        "Buildings/Registered eastern parcels/H0545/Ground storeys/Window divisions",
+        "Buildings/Registered eastern parcels/H0545/Ground storeys/Floor edges",
+        "Buildings/Registered eastern parcels/H0545/Ground storeys/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0545/Terraced courtyard offices/Slabs",
+        "Buildings/Registered eastern parcels/H0545/Terraced courtyard offices/Glazing",
+        "Buildings/Registered eastern parcels/H0545/Terraced courtyard offices/Window divisions",
+        "Buildings/Registered eastern parcels/H0545/Terraced courtyard offices/Floor edges",
+        "Buildings/Registered eastern parcels/H0545/Terraced courtyard offices/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0545/Planted terrace",
+        "Buildings/Registered eastern parcels/H0545/Upper roof coping"
+      ]
+    },
+    "H0550": {
+      "name": "联泰超总湾 · 西南侧阶梯裙楼",
+      "triangles": 504,
+      "z_m": [
+        0.18,
+        23.5
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0550/Terraced floor ranges/Slabs",
+        "Buildings/Registered eastern parcels/H0550/Terraced floor ranges/Glazing",
+        "Buildings/Registered eastern parcels/H0550/Terraced floor ranges/Window divisions",
+        "Buildings/Registered eastern parcels/H0550/Terraced floor ranges/Floor edges",
+        "Buildings/Registered eastern parcels/H0550/Terraced floor ranges/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0550/Accessible planted roofs"
+      ]
+    },
+    "H0560": {
+      "name": "中兴东侧教育设施用地 · 西侧楼",
+      "triangles": 572,
+      "z_m": [
+        0.18,
+        24.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0560/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0560/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0560/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0560/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0560/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0560/Roof gardens",
+        "Buildings/Registered eastern parcels/H0560/White roof lattice",
+        "Buildings/Registered eastern parcels/H0560/Enclosed garden passage"
+      ]
+    },
+    "H0561": {
+      "name": "中兴东侧教育设施用地 · 中部楼",
+      "triangles": 452,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0561/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0561/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0561/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0561/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0561/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0561/Planted roof",
+        "Buildings/Registered eastern parcels/H0561/White roof lattice",
+        "Buildings/Registered eastern parcels/H0561/Enclosed garden passage"
+      ]
+    },
+    "H0562": {
+      "name": "中兴东侧教育设施用地 · 东侧楼",
+      "triangles": 520,
+      "z_m": [
+        0.18,
+        21.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0562/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0562/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0562/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0562/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0562/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0562/Roof gardens",
+        "Buildings/Registered eastern parcels/H0562/White roof lattice"
+      ]
+    },
+    "H0563": {
+      "name": "中兴东侧商业服务业用地 · 西北楼",
+      "triangles": 532,
+      "z_m": [
+        0.18,
+        24.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0563/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0563/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0563/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0563/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0563/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0563/Roof gardens",
+        "Buildings/Registered eastern parcels/H0563/White roof lattice"
+      ]
+    },
+    "H0564": {
+      "name": "中兴东侧商业服务业用地 · 东北楼",
+      "triangles": 416,
+      "z_m": [
+        0.18,
+        16.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0564/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0564/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0564/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0564/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0564/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0564/Planted roof",
+        "Buildings/Registered eastern parcels/H0564/White roof lattice"
+      ]
+    },
+    "H0565": {
+      "name": "中兴东侧商业服务业用地 · 西南楼",
+      "triangles": 572,
+      "z_m": [
+        0.18,
+        24.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0565/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0565/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0565/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0565/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0565/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0565/Roof gardens",
+        "Buildings/Registered eastern parcels/H0565/White roof lattice",
+        "Buildings/Registered eastern parcels/H0565/Enclosed garden passage"
+      ]
+    },
+    "H0566": {
+      "name": "中兴东侧商业服务业用地 · 中南楼",
+      "triangles": 496,
+      "z_m": [
+        0.18,
+        23.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0566/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0566/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0566/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0566/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0566/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0566/Roof gardens",
+        "Buildings/Registered eastern parcels/H0566/White roof lattice"
+      ]
+    },
+    "H0567": {
+      "name": "中兴东侧商业服务业用地 · 东南楼",
+      "triangles": 332,
+      "z_m": [
+        0.18,
+        17.0
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/H0567/Glazed wings/Slabs",
+        "Buildings/Registered eastern parcels/H0567/Glazed wings/Glazing",
+        "Buildings/Registered eastern parcels/H0567/Glazed wings/Window divisions",
+        "Buildings/Registered eastern parcels/H0567/Glazed wings/Floor edges",
+        "Buildings/Registered eastern parcels/H0567/Glazed wings/Raised bay frames",
+        "Buildings/Registered eastern parcels/H0567/Planted roof",
+        "Buildings/Registered eastern parcels/H0567/White roof lattice"
+      ]
+    },
+    "I0101": {
+      "name": "天音大厦 1栋一单元",
+      "triangles": 8176,
+      "z_m": [
+        0.18,
+        146.9
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0101"
+      ]
+    },
+    "I0102": {
+      "name": "天音大厦 2栋",
+      "triangles": 6052,
+      "z_m": [
+        0.18,
+        99.98
+      ],
+      "mesh_parts": [
+        "Projects/Tianyin/I0102"
+      ]
+    },
+    "I0103": {
+      "name": "天音大厦 3栋（文化设施）",
+      "triangles": 980,
+      "z_m": [
+        0.18,
+        57.4
+      ],
+      "mesh_parts": [
+        "Projects/Tianyin/I0103"
+      ]
+    },
+    "I0104": {
+      "name": "迎海大厦（迎海超总基地南塔）",
+      "triangles": 5116,
+      "z_m": [
+        0.18,
+        129.45
+      ],
+      "mesh_parts": [
+        "Projects/Yinghai/I0104"
+      ]
+    },
+    "I0105": {
+      "name": "天音大厦 1栋二单元",
+      "triangles": 432,
+      "z_m": [
+        0.18,
+        23.6
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0105"
+      ]
+    },
+    "I0106": {
+      "name": "天音大厦 1栋三单元",
+      "triangles": 360,
+      "z_m": [
+        0.18,
+        19.5
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0106"
+      ]
+    },
+    "I0107": {
+      "name": "天音大厦 1栋四单元",
+      "triangles": 364,
+      "z_m": [
+        0.18,
+        23.6
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0107"
+      ]
+    },
+    "I0108": {
+      "name": "天音大厦 1栋五单元",
+      "triangles": 312,
+      "z_m": [
+        0.18,
+        19.5
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0108"
+      ]
+    },
+    "I0109": {
+      "name": "天音大厦 1栋六单元",
+      "triangles": 384,
+      "z_m": [
+        0.18,
+        24.0
+      ],
+      "mesh_parts": [
+        "Buildings/Tianyin/I0109"
+      ]
+    },
+    "I0130": {
+      "name": "中海深湾玖序花园 1A座 · 深湾玖序 1A · Shenwan Jiuxu 1A",
+      "triangles": 2364,
+      "z_m": [
+        0.24,
+        150.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0130 Shenwan Jiuxu 1A/Tower glazing",
+        "Landmarks/I0130 Shenwan Jiuxu 1A/Balcony plates",
+        "Landmarks/I0130 Shenwan Jiuxu 1A/Facade uprights",
+        "Landmarks/I0130 Shenwan Jiuxu 1A/Roof terrace",
+        "Landmarks/I0130 Shenwan Jiuxu 1A/Screened roof"
+      ]
+    },
+    "I0131": {
+      "name": "中海深湾玖序花园 1B座 · 深湾玖序 1B · Shenwan Jiuxu 1B",
+      "triangles": 3300,
+      "z_m": [
+        0.24,
+        210.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0131 Shenwan Jiuxu 1B/Tower glazing",
+        "Landmarks/I0131 Shenwan Jiuxu 1B/Balcony plates",
+        "Landmarks/I0131 Shenwan Jiuxu 1B/Facade uprights",
+        "Landmarks/I0131 Shenwan Jiuxu 1B/Roof terrace",
+        "Landmarks/I0131 Shenwan Jiuxu 1B/Screened roof"
+      ]
+    },
+    "I0132": {
+      "name": "中海深湾玖序花园 1C座 · 深湾玖序 1C · Shenwan Jiuxu 1C",
+      "triangles": 3040,
+      "z_m": [
+        0.24,
+        210.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0132 Shenwan Jiuxu 1C/Tower glazing",
+        "Landmarks/I0132 Shenwan Jiuxu 1C/Balcony plates",
+        "Landmarks/I0132 Shenwan Jiuxu 1C/Facade uprights",
+        "Landmarks/I0132 Shenwan Jiuxu 1C/Roof terrace",
+        "Landmarks/I0132 Shenwan Jiuxu 1C/Screened roof"
+      ]
+    },
+    "I0133": {
+      "name": "中海深湾玖序花园 2A座 · 深湾玖序 2A · Shenwan Jiuxu 2A",
+      "triangles": 2416,
+      "z_m": [
+        0.24,
+        150.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0133 Shenwan Jiuxu 2A/Tower glazing",
+        "Landmarks/I0133 Shenwan Jiuxu 2A/Balcony plates",
+        "Landmarks/I0133 Shenwan Jiuxu 2A/Facade uprights",
+        "Landmarks/I0133 Shenwan Jiuxu 2A/Roof terrace",
+        "Landmarks/I0133 Shenwan Jiuxu 2A/Screened roof"
+      ]
+    },
+    "I0134": {
+      "name": "中海深湾玖序花园 2B座 · 深湾玖序 2B · Shenwan Jiuxu 2B",
+      "triangles": 2416,
+      "z_m": [
+        0.24,
+        150.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0134 Shenwan Jiuxu 2B/Tower glazing",
+        "Landmarks/I0134 Shenwan Jiuxu 2B/Balcony plates",
+        "Landmarks/I0134 Shenwan Jiuxu 2B/Facade uprights",
+        "Landmarks/I0134 Shenwan Jiuxu 2B/Roof terrace",
+        "Landmarks/I0134 Shenwan Jiuxu 2B/Screened roof"
+      ]
+    },
+    "I0135": {
+      "name": "中海深湾玖序花园 2C座 · 深湾玖序 2C · Shenwan Jiuxu 2C",
+      "triangles": 2416,
+      "z_m": [
+        0.24,
+        150.0
+      ],
+      "mesh_parts": [
+        "Landmarks/I0135 Shenwan Jiuxu 2C/Tower glazing",
+        "Landmarks/I0135 Shenwan Jiuxu 2C/Balcony plates",
+        "Landmarks/I0135 Shenwan Jiuxu 2C/Facade uprights",
+        "Landmarks/I0135 Shenwan Jiuxu 2C/Roof terrace",
+        "Landmarks/I0135 Shenwan Jiuxu 2C/Screened roof"
+      ]
+    },
+    "I0140": {
+      "name": "欧加大厦 · OPPO 国际总部",
+      "triangles": 71696,
+      "z_m": [
+        0.55,
+        199.75
+      ],
+      "mesh_parts": [
+        "Projects/OPPO Headquarters/Central main peak/Curved glass",
+        "Projects/OPPO Headquarters/Central main peak/Floor ribbons",
+        "Projects/OPPO Headquarters/Central main peak/Window mullions",
+        "Projects/OPPO Headquarters/Central main peak/Lifted base",
+        "Projects/OPPO Headquarters/Central main peak/Inclined lobby columns",
+        "Projects/OPPO Headquarters/Left rear peak/Curved glass",
+        "Projects/OPPO Headquarters/Left rear peak/Floor ribbons",
+        "Projects/OPPO Headquarters/Left rear peak/Window mullions",
+        "Projects/OPPO Headquarters/Left rear peak/Lifted base",
+        "Projects/OPPO Headquarters/Left rear peak/Inclined lobby columns",
+        "Projects/OPPO Headquarters/Right terrace tower/Curved glass",
+        "Projects/OPPO Headquarters/Right terrace tower/Floor ribbons",
+        "Projects/OPPO Headquarters/Right terrace tower/Window mullions",
+        "Projects/OPPO Headquarters/Right terrace tower/Lifted base",
+        "Projects/OPPO Headquarters/Right terrace tower/Inclined lobby columns",
+        "Projects/OPPO Headquarters/Inner rear shoulder/Curved glass",
+        "Projects/OPPO Headquarters/Inner rear shoulder/Floor ribbons",
+        "Projects/OPPO Headquarters/Inner rear shoulder/Window mullions",
+        "Projects/OPPO Headquarters/Inner rear shoulder/Lifted base",
+        "Projects/OPPO Headquarters/Inner rear shoulder/Inclined lobby columns",
+        "Projects/OPPO Headquarters/Shared terraced podium/Fascia",
+        "Projects/OPPO Headquarters/Shared terraced podium/Stepped roofs",
+        "Projects/OPPO Headquarters/Shared terraced podium/Setback glazing",
+        "Projects/OPPO Headquarters/Inset shared atria/Glazing",
+        "Projects/OPPO Headquarters/Inset shared atria/Floors"
+      ]
+    },
+    "I0472": {
+      "name": "联泰超总湾国际中心 2栋（T2）",
+      "triangles": 1700,
+      "z_m": [
+        0.19,
+        219.4
+      ],
+      "mesh_parts": [
+        "Buildings/Registered eastern parcels/I0472/Tower/Slabs",
+        "Buildings/Registered eastern parcels/I0472/Tower/Glazing",
+        "Buildings/Registered eastern parcels/I0472/Tower/Window divisions",
+        "Buildings/Registered eastern parcels/I0472/Tower/Floor edges",
+        "Buildings/Registered eastern parcels/I0472/Tower/Raised bay frames",
+        "Buildings/Registered eastern parcels/I0472/Perimeter crown/Slabs",
+        "Buildings/Registered eastern parcels/I0472/Perimeter crown/Glazing",
+        "Buildings/Registered eastern parcels/I0472/Perimeter crown/Window divisions",
+        "Buildings/Registered eastern parcels/I0472/Perimeter crown/Floor edges",
+        "Buildings/Registered eastern parcels/I0472/Perimeter crown/Raised bay frames",
+        "Buildings/Registered eastern parcels/I0472/Recessed service roof/Slabs",
+        "Buildings/Registered eastern parcels/I0472/Recessed service roof/Glazing",
+        "Buildings/Registered eastern parcels/I0472/Recessed service roof/Window divisions",
+        "Buildings/Registered eastern parcels/I0472/Recessed service roof/Floor edges",
+        "Buildings/Registered eastern parcels/I0472/Recessed service roof/Raised bay frames"
+      ]
+    },
+    "P0004": {
+      "name": "深超总 A 塔",
+      "triangles": 5106,
+      "z_m": [
+        0.0,
+        499.0
+      ],
+      "mesh_parts": [
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Curtain wall",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Shadow facades",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Vertical fins",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Storey joints",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Eave",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Terrace deck",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Terrace planting",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Lower terrace/Bay glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Curtain wall",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Shadow facades",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Vertical fins",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Storey joints",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Eave",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Terrace deck",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Terrace planting",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Middle terrace/Bay glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Curtain wall",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Shadow facades",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Vertical fins",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Storey joints",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Eave",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Tall bar/Bay glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Roof top",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Main entrance glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Entrance canopy",
+        "Projects/Eastern headquarters/Shenzhen Bay Tower A/Recessed glass joints"
+      ]
+    },
+    "P0005": {
+      "name": "深湾金融中心 B 塔",
+      "triangles": 24644,
+      "z_m": [
+        0.12,
+        394.4
+      ],
+      "mesh_parts": [
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Continuous glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Glazing reflections",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Curving mullions",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Floor spandrels",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Entrance lobby",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Entrance soffit",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Recessed occupied roof",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Mechanical enclosure",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Crown screen",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Crown cap",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/West wing/Crown blades",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Continuous glazing",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Glazing reflections",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Curving mullions",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Floor spandrels",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Entrance lobby",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Entrance soffit",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Recessed occupied roof",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Mechanical enclosure",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Crown screen",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Crown cap",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/East wing/Crown blades",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/Recessed S joint",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/Entrance mullions",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/Twelve-storey podium",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/Podium terraces",
+        "Projects/Eastern headquarters/Shenzhen Bay Financial Center B/Podium floors"
+      ]
+    },
+    "P0006": {
+      "name": "大疆智能航空系统全球总部",
+      "triangles": 3948,
+      "z_m": [
+        0.23,
+        299.5
+      ],
+      "mesh_parts": [
+        "Projects/Eastern headquarters/DJI Global Headquarters/Court",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Eight-storey galleries",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Podium terrace rims",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Podium south window piers",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Public rotundas",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Rotunda rims",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Rotunda skylights",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Central atrium bridges",
+        "Projects/Eastern headquarters/DJI Global Headquarters/East pocket court",
+        "Projects/Eastern headquarters/DJI Global Headquarters/East linear garden",
+        "Projects/Eastern headquarters/DJI Global Headquarters/West forecourt",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Service entry pavilions",
+        "Projects/Eastern headquarters/DJI Global Headquarters/West blade",
+        "Projects/Eastern headquarters/DJI Global Headquarters/West blade / Close silver fins",
+        "Projects/Eastern headquarters/DJI Global Headquarters/East blade",
+        "Projects/Eastern headquarters/DJI Global Headquarters/East blade / Close silver fins",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Central glass ravine",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Recessed floor lights",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Observation ledges",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Sloping crown screens",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Crown structure",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Summit mast",
+        "Projects/Eastern headquarters/DJI Global Headquarters/Inset roof plant"
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ids": [
+        "@C-shell",
+        "H0410"
+      ],
+      "xy_overlap_m2": 3994.2825,
+      "xy_bounds_m": [
+        2070.12,
+        819.514,
+        2240.2,
+        949.449
+      ],
+      "common_z_m": [
+        0.3,
+        16.847
+      ],
+      "contact_layers_m": [],
+      "reason": "C塔连续外罩、塔楼与下部公共空间的设计连接",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "@C-shell",
+        "H0311"
+      ],
+      "xy_overlap_m2": 2574.3584,
+      "xy_bounds_m": [
+        2082.887,
+        858.23,
+        2142.495,
+        914.315
+      ],
+      "common_z_m": [
+        0.0,
+        279.067
+      ],
+      "contact_layers_m": [],
+      "reason": "C塔连续外罩、塔楼与下部公共空间的设计连接",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "@C-shell",
+        "H0310"
+      ],
+      "xy_overlap_m2": 3029.3178,
+      "xy_bounds_m": [
+        2172.848,
+        886.508,
+        2239.159,
+        948.626
+      ],
+      "common_z_m": [
+        0.0,
+        279.067
+      ],
+      "contact_layers_m": [],
+      "reason": "C塔连续外罩、塔楼与下部公共空间的设计连接",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "@carbon-bridges",
+        "B2749"
+      ],
+      "xy_overlap_m2": 74.3563,
+      "xy_bounds_m": [
+        2495.303,
+        918.069,
+        2508.562,
+        945.068
+      ],
+      "common_z_m": [
+        20.935,
+        153.3
+      ],
+      "contact_layers_m": [],
+      "reason": "碳云双塔的花园连桥及塔端节点",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "@carbon-bridges",
+        "B2544"
+      ],
+      "xy_overlap_m2": 32.6679,
+      "xy_bounds_m": [
+        2467.092,
+        930.805,
+        2480.275,
+        948.825
+      ],
+      "common_z_m": [
+        20.935,
+        153.3
+      ],
+      "contact_layers_m": [],
+      "reason": "碳云双塔的花园连桥及塔端节点",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B3011"
+      ],
+      "xy_overlap_m2": 543.1605,
+      "xy_bounds_m": [
+        1850.085,
+        840.185,
+        1880.115,
+        865.815
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B2542"
+      ],
+      "xy_overlap_m2": 637.1856,
+      "xy_bounds_m": [
+        1748.585,
+        837.985,
+        1778.615,
+        864.715
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B2694"
+      ],
+      "xy_overlap_m2": 536.4841,
+      "xy_bounds_m": [
+        1798.285,
+        839.685,
+        1827.715,
+        864.715
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B2543"
+      ],
+      "xy_overlap_m2": 626.2548,
+      "xy_bounds_m": [
+        1747.6,
+        924.585,
+        1776.915,
+        951.29
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B2886"
+      ],
+      "xy_overlap_m2": 544.9413,
+      "xy_bounds_m": [
+        1789.985,
+        925.185,
+        1820.015,
+        950.79
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1411",
+        "B2665"
+      ],
+      "xy_overlap_m2": 997.5979,
+      "xy_bounds_m": [
+        1834.085,
+        926.285,
+        1877.29,
+        950.19
+      ],
+      "common_z_m": [
+        6.0,
+        6.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "瑧湾汇六栋住宅共用的低区裙房"
+    },
+    {
+      "ids": [
+        "B1436",
+        "B2541"
+      ],
+      "xy_overlap_m2": 79.6252,
+      "xy_bounds_m": [
+        2753.62,
+        584.483,
+        2768.146,
+        590.994
+      ],
+      "common_z_m": [
+        3.0,
+        8.0
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B1436",
+        "B2856"
+      ],
+      "xy_overlap_m2": 52.3054,
+      "xy_bounds_m": [
+        2753.697,
+        514.48,
+        2767.575,
+        519.834
+      ],
+      "common_z_m": [
+        3.0,
+        8.0
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B1502",
+        "B2748"
+      ],
+      "xy_overlap_m2": 1007.0684,
+      "xy_bounds_m": [
+        1834.14,
+        556.74,
+        1870.66,
+        584.96
+      ],
+      "common_z_m": [],
+      "contact_layers_m": [],
+      "class": "vertical_clearance",
+      "reason": "中信双塔与南区裙房的连接"
+    },
+    {
+      "ids": [
+        "B1502",
+        "H0400"
+      ],
+      "xy_overlap_m2": 161.3507,
+      "xy_bounds_m": [
+        1801.7,
+        559.71,
+        1840.617,
+        613.6
+      ],
+      "common_z_m": [
+        0.22,
+        15.0
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B1503",
+        "H0400"
+      ],
+      "xy_overlap_m2": 421.4555,
+      "xy_bounds_m": [
+        1791.444,
+        559.71,
+        1801.7,
+        610.2
+      ],
+      "common_z_m": [
+        0.22,
+        15.0
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2224",
+        "B3013"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        1897.098,
+        870.7,
+        1922.04,
+        928.74
+      ],
+      "common_z_m": [
+        0.18,
+        23.05
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2541",
+        "B3029"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2768.015,
+        586.501,
+        2768.238,
+        590.077
+      ],
+      "common_z_m": [
+        0.18,
+        95.7
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2541",
+        "B2856"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2702.837,
+        565.51,
+        2710.891,
+        566.162
+      ],
+      "common_z_m": [
+        0.18,
+        60.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2555",
+        "B2791"
+      ],
+      "xy_overlap_m2": 2011.8767,
+      "xy_bounds_m": [
+        1751.222,
+        781.888,
+        1881.677,
+        799.008
+      ],
+      "common_z_m": [
+        3.0,
+        3.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "汇云西南街坊四栋共用三米基座"
+    },
+    {
+      "ids": [
+        "B2555",
+        "B2792"
+      ],
+      "xy_overlap_m2": 497.4059,
+      "xy_bounds_m": [
+        1750.914,
+        803.388,
+        1785.112,
+        818.312
+      ],
+      "common_z_m": [
+        3.0,
+        3.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "汇云西南街坊四栋共用三米基座"
+    },
+    {
+      "ids": [
+        "B2555",
+        "B2793"
+      ],
+      "xy_overlap_m2": 509.8798,
+      "xy_bounds_m": [
+        1790.588,
+        803.388,
+        1825.412,
+        818.812
+      ],
+      "common_z_m": [
+        3.0,
+        3.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "汇云西南街坊四栋共用三米基座"
+    },
+    {
+      "ids": [
+        "B2555",
+        "B2794"
+      ],
+      "xy_overlap_m2": 661.4261,
+      "xy_bounds_m": [
+        1834.788,
+        803.888,
+        1881.328,
+        819.412
+      ],
+      "common_z_m": [
+        3.0,
+        3.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "汇云西南街坊四栋共用三米基座"
+    },
+    {
+      "ids": [
+        "B2629",
+        "B3028"
+      ],
+      "xy_overlap_m2": 417.6242,
+      "xy_bounds_m": [
+        2744.388,
+        673.188,
+        2765.912,
+        693.112
+      ],
+      "common_z_m": [
+        18.0,
+        18.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "恒力双塔共用裙房及其屋面构件"
+    },
+    {
+      "ids": [
+        "B2855",
+        "B2857"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2778.052,
+        481.765,
+        2780.332,
+        482.78
+      ],
+      "common_z_m": [
+        0.18,
+        60.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2855",
+        "B2856"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2742.775,
+        481.773,
+        2754.381,
+        514.385
+      ],
+      "common_z_m": [
+        0.18,
+        60.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2856",
+        "B2857"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2766.914,
+        516.242,
+        2767.189,
+        517.185
+      ],
+      "common_z_m": [
+        0.18,
+        60.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2857",
+        "B3029"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        2811.604,
+        565.51,
+        2821.687,
+        567.376
+      ],
+      "common_z_m": [
+        0.18,
+        60.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2946",
+        "B3013"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        1897.7,
+        869.96,
+        1910.399,
+        870.275
+      ],
+      "common_z_m": [
+        0.18,
+        28.25
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "B2957",
+        "B3028"
+      ],
+      "xy_overlap_m2": 848.0,
+      "xy_bounds_m": [
+        2705.08,
+        689.08,
+        2737.32,
+        715.82
+      ],
+      "common_z_m": [
+        18.0,
+        18.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "恒力双塔共用裙房及其屋面构件"
+    },
+    {
+      "ids": [
+        "B2991",
+        "B2998"
+      ],
+      "xy_overlap_m2": 3.7676,
+      "xy_bounds_m": [
+        1599.12,
+        496.618,
+        1608.68,
+        515.44
+      ],
+      "common_z_m": [
+        0.17,
+        58.674
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2991",
+        "B2999"
+      ],
+      "xy_overlap_m2": 3.7751,
+      "xy_bounds_m": [
+        1582.619,
+        504.36,
+        1592.081,
+        523.281
+      ],
+      "common_z_m": [
+        0.17,
+        58.674
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2992",
+        "B3002"
+      ],
+      "xy_overlap_m2": 3.9076,
+      "xy_bounds_m": [
+        1585.318,
+        722.263,
+        1594.382,
+        742.137
+      ],
+      "common_z_m": [
+        0.17,
+        58.674
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2992",
+        "B3005"
+      ],
+      "xy_overlap_m2": 3.8178,
+      "xy_bounds_m": [
+        1599.118,
+        728.818,
+        1608.082,
+        748.282
+      ],
+      "common_z_m": [
+        0.17,
+        58.674
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2998",
+        "B3007"
+      ],
+      "xy_overlap_m2": 3.8628,
+      "xy_bounds_m": [
+        1632.219,
+        480.061,
+        1641.781,
+        499.482
+      ],
+      "common_z_m": [
+        40.0,
+        100.221
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B2999",
+        "B3008"
+      ],
+      "xy_overlap_m2": 3.5694,
+      "xy_bounds_m": [
+        1548.41,
+        556.71,
+        1568.305,
+        557.99
+      ],
+      "common_z_m": [
+        40.0,
+        100.769
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B3000",
+        "B3008"
+      ],
+      "xy_overlap_m2": 3.5874,
+      "xy_bounds_m": [
+        1548.995,
+        569.41,
+        1568.99,
+        570.69
+      ],
+      "common_z_m": [
+        40.0,
+        100.769
+      ],
+      "contact_layers_m": [],
+      "class": "no_common_interior_on_sampled_sections"
+    },
+    {
+      "ids": [
+        "B3018",
+        "H0400"
+      ],
+      "xy_overlap_m2": 9.7392,
+      "xy_bounds_m": [
+        1791.757,
+        667.64,
+        1837.477,
+        667.92
+      ],
+      "common_z_m": [
+        0.22,
+        72.062
+      ],
+      "contact_layers_m": [
+        [
+          71.456,
+          0.0232
+        ],
+        [
+          71.483,
+          0.0314
+        ],
+        [
+          71.51,
+          0.0875
+        ],
+        [
+          71.538,
+          0.1774
+        ],
+        [
+          71.565,
+          0.2774
+        ],
+        [
+          71.579,
+          0.3208
+        ],
+        [
+          71.595,
+          0.3717
+        ],
+        [
+          71.61,
+          0.4153
+        ],
+        [
+          71.613,
+          0.4278
+        ],
+        [
+          71.623,
+          0.4623
+        ],
+        [
+          71.633,
+          0.4923
+        ],
+        [
+          71.641,
+          0.5175
+        ],
+        [
+          71.654,
+          0.5498
+        ],
+        [
+          71.664,
+          0.5848
+        ],
+        [
+          71.668,
+          0.597
+        ],
+        [
+          71.672,
+          0.6112
+        ],
+        [
+          71.676,
+          0.6251
+        ],
+        [
+          71.681,
+          0.6405
+        ],
+        [
+          71.688,
+          0.6599
+        ],
+        [
+          71.695,
+          0.6844
+        ],
+        [
+          71.706,
+          0.7119
+        ],
+        [
+          71.717,
+          0.7423
+        ],
+        [
+          71.722,
+          0.7614
+        ],
+        [
+          71.726,
+          0.7751
+        ],
+        [
+          71.73,
+          0.7887
+        ],
+        [
+          71.736,
+          0.8411
+        ],
+        [
+          71.743,
+          0.889
+        ],
+        [
+          71.75,
+          0.8854
+        ],
+        [
+          71.761,
+          0.8431
+        ],
+        [
+          71.771,
+          0.8037
+        ],
+        [
+          71.777,
+          0.7865
+        ],
+        [
+          71.781,
+          0.7743
+        ],
+        [
+          71.785,
+          0.7621
+        ],
+        [
+          71.788,
+          0.7514
+        ],
+        [
+          71.795,
+          0.7306
+        ],
+        [
+          71.804,
+          0.7011
+        ],
+        [
+          71.815,
+          0.6547
+        ],
+        [
+          71.826,
+          0.614
+        ],
+        [
+          71.832,
+          0.5962
+        ],
+        [
+          71.835,
+          0.5836
+        ],
+        [
+          71.839,
+          0.5709
+        ],
+        [
+          71.843,
+          0.5598
+        ],
+        [
+          71.853,
+          0.5255
+        ],
+        [
+          71.87,
+          0.4727
+        ],
+        [
+          71.884,
+          0.4257
+        ],
+        [
+          71.894,
+          0.3952
+        ],
+        [
+          71.897,
+          0.3841
+        ],
+        [
+          71.915,
+          0.3268
+        ],
+        [
+          71.942,
+          0.2389
+        ],
+        [
+          71.97,
+          0.1511
+        ]
+      ],
+      "section_contact_bounds_m": [
+        1792.7481,
+        667.7,
+        1835.952,
+        667.7912
+      ],
+      "reason": "中信主塔南墙与南侧天幕约71.9米高端的连接，在71.2至72.15米复核，单截面不超过1.5平方米",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "B3028",
+        "B3030"
+      ],
+      "xy_overlap_m2": 1864.2316,
+      "xy_bounds_m": [
+        2770.78,
+        671.38,
+        2814.62,
+        715.22
+      ],
+      "common_z_m": [
+        18.0,
+        18.0
+      ],
+      "contact_layers_m": [],
+      "class": "touching_horizontal_interface",
+      "reason": "恒力双塔共用裙房及其屋面构件"
+    },
+    {
+      "ids": [
+        "H0310",
+        "H0410"
+      ],
+      "xy_overlap_m2": 935.2465,
+      "xy_bounds_m": [
+        2191.685,
+        901.195,
+        2239.633,
+        949.341
+      ],
+      "common_z_m": [
+        0.3,
+        16.847
+      ],
+      "contact_layers_m": [],
+      "reason": "C塔四角退台与塔脚、大堂的设计连接",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "H0311",
+        "H0410"
+      ],
+      "xy_overlap_m2": 253.7781,
+      "xy_bounds_m": [
+        2082.887,
+        889.967,
+        2119.535,
+        914.302
+      ],
+      "common_z_m": [
+        0.3,
+        16.847
+      ],
+      "contact_layers_m": [],
+      "reason": "C塔四角退台与塔脚、大堂的设计连接",
+      "class": "documented_connection"
+    },
+    {
+      "ids": [
+        "H0560",
+        "H0561"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        3121.36,
+        707.6,
+        3121.38,
+        712.4
+      ],
+      "common_z_m": [
+        0.18,
+        23.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "H0561",
+        "H0562"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        3174.86,
+        690.6,
+        3174.88,
+        695.4
+      ],
+      "common_z_m": [
+        0.18,
+        21.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    },
+    {
+      "ids": [
+        "H0565",
+        "H0566"
+      ],
+      "xy_overlap_m2": 0.0,
+      "xy_bounds_m": [
+        3134.36,
+        547.6,
+        3134.38,
+        552.4
+      ],
+      "common_z_m": [
+        0.18,
+        23.0
+      ],
+      "contact_layers_m": [],
+      "class": "shared_boundary_or_below_area_tolerance"
+    }
+  ],
+  "unexplained": []
+}

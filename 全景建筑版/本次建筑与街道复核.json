@@ -1,0 +1,1622 @@
+{
+  "说明": "建筑采用完整三角面正射投影，包含裙房、挑檐与垂直墙线。净距为模型内的最短平面距离，单位米。",
+  "projects": {
+    "P0004": {
+      "name": "深超总 A 塔",
+      "group": "Projects/Eastern headquarters/Shenzhen Bay Tower A",
+      "projected_area_m2": 5890.66,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 290.4817,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 198.8221,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 681.3656,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 183.8926,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 299.4968,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 356.9606,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 6.6315,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 601.6849,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 4.083,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 48.0403,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 1.9964,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 2.6333,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 52.4778,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 3.4284,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0100": {
+      "name": "深圳融美术馆",
+      "group": "Landmarks/I0100 Rong Museum of Art",
+      "projected_area_m2": 3424.03,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 75.8104,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 322.6457,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 1099.3975,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 23.3861,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 96.6365,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 28.7485,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 9.7592,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 545.9059,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 6.888,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 3130.5494,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 2615.6846,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 3150.0426,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 2853.6518,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 3008.3333,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0110": {
+      "name": "M80 公寓 T1",
+      "group": "Landmarks/I0110 M80 Apartments T1",
+      "projected_area_m2": 2390.62,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 189.2803,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 238.0012,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 1019.0288,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 10.6728,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 184.8689,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 145.8095,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 7.4834,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 523.0824,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 4.6163,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 3063.0162,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 2549.9445,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 3084.7715,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 2788.6716,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 2942.6343,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0111": {
+      "name": "M80 深圳居舍酒店 T2",
+      "group": "Landmarks/I0111 M80 House Hotel T2",
+      "projected_area_m2": 1585.56,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 221.9186,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 240.7993,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 992.2794,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 10.9107,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 248.3782,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 133.7854,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 15.0253,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 611.4108,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 11.6248,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 3013.298,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 2496.8372,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 3030.845,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 2734.302,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 2889.4207,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0112": {
+      "name": "M80 办公楼 T3",
+      "group": "Landmarks/I0112 M80 Offices T3",
+      "projected_area_m2": 2341.24,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 147.6712,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 337.5363,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 1079.6602,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 91.1554,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 185.9018,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 41.2586,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 12.9392,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 640.5427,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 10.4539,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 3091.3545,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 2572.2864,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 3105.3936,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 2808.5521,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 2964.6328,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0101": {
+      "name": "天音大厦 1栋一单元",
+      "group": "Buildings/Tianyin/I0101",
+      "projected_area_m2": 2086.77,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 510.0476,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 447.7836,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 232.3577,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 174.0147,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 833.6473,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 261.3292,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 107.9536,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 939.1284,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 105.4738,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 232.5075,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 253.4617,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 238.0273,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 435.0853,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 540.5967,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0102": {
+      "name": "天音大厦 2栋",
+      "group": "Projects/Tianyin/I0102",
+      "projected_area_m2": 1582.93,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 402.5312,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 342.0752,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 166.9513,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 73.1797,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 921.0941,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 226.4875,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 37.1312,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 1022.8416,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 33.7109,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 350.8688,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 365.9922,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 356.1525,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 556.2445,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 663.7546,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0103": {
+      "name": "天音大厦 3栋（文化设施）",
+      "group": "Projects/Tianyin/I0103",
+      "projected_area_m2": 939.25,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 464.7831,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 401.7001,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 188.4889,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 126.8167,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 911.3786,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 227.0819,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 90.5356,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 1003.4193,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 87.038,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 304.181,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 318.7448,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 309.4145,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 516.3849,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 618.7333,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0104": {
+      "name": "迎海大厦（迎海超总基地南塔）",
+      "group": "Projects/Yinghai/I0104",
+      "projected_area_m2": 3708.22,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 208.8319,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 121.9157,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 608.6067,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 106.356,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 209.5265,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 249.5805,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 24.8249,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 583.574,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 104.4786,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 286.8569,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 1.9955,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 87.7833,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 519.4695,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 331.2133,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0105": {
+      "name": "天音大厦 1栋二单元",
+      "group": "Buildings/Tianyin/I0105",
+      "projected_area_m2": 354.76,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 543.5802,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 479.85,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 241.9851,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 189.839,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 835.8844,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 255.3282,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 152.2004,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 974.0939,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 149.7207,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 228.5816,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 244.6625,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 233.857,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 451.4731,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 543.4177,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0106": {
+      "name": "天音大厦 1栋三单元",
+      "group": "Buildings/Tianyin/I0106",
+      "projected_area_m2": 306.34,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 511.902,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 448.2058,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 216.5639,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 167.7424,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 867.0944,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 237.2498,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 131.0713,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 996.3411,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 127.4848,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 259.122,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 273.6971,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 264.3313,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 481.9886,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 574.6892,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0107": {
+      "name": "天音大厦 1栋四单元",
+      "group": "Buildings/Tianyin/I0107",
+      "projected_area_m2": 145.35,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 494.7333,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 431.2333,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 207.1611,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 153.4247,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 899.1006,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 234.4548,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 116.9246,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 1011.8559,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 113.377,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 291.4056,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 305.6675,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 296.615,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 510.3182,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 606.5698,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0108": {
+      "name": "天音大厦 1栋五单元",
+      "group": "Buildings/Tianyin/I0108",
+      "projected_area_m2": 224.32,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 433.5126,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 370.0315,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 159.3221,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 94.2243,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 952.5372,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 207.3045,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 57.9372,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 1053.3693,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 54.439,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 343.4414,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 355.2093,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 348.5211,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 564.3346,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 660.2765,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0109": {
+      "name": "天音大厦 1栋六单元",
+      "group": "Buildings/Tianyin/I0109",
+      "projected_area_m2": 271.04,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 408.9449,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 345.5896,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 145.1711,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 71.1833,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 962.9296,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 202.7102,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 35.0166,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 1068.6396,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 31.5461,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 367.612,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 378.8011,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 372.664,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 587.4451,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 684.698,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0130": {
+      "name": "中海深湾玖序花园 1A座 · 深湾玖序 1A · Shenwan Jiuxu 1A",
+      "group": "Landmarks/I0130 Shenwan Jiuxu 1A",
+      "projected_area_m2": 951.52,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 514.0427,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 364.0516,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 419.7123,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 36.0723,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 732.3439,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 481.9623,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 13.4,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 830.5448,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 10.8939,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 450.1434,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 484.0291,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 455.7845,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 522.7431,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 651.0584,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0131": {
+      "name": "中海深湾玖序花园 1B座 · 深湾玖序 1B · Shenwan Jiuxu 1B",
+      "group": "Landmarks/I0131 Shenwan Jiuxu 1B",
+      "projected_area_m2": 1291.73,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 563.7782,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 331.1148,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 392.3848,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 118.7788,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 827.947,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 438.1089,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 18.0336,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 804.0174,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 15.5655,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 348.023,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 382.9537,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 353.6285,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 434.6862,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 562.5206,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0132": {
+      "name": "中海深湾玖序花园 1C座 · 深湾玖序 1C · Shenwan Jiuxu 1C",
+      "group": "Landmarks/I0132 Shenwan Jiuxu 1C",
+      "projected_area_m2": 1104.14,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 510.7684,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 377.5512,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 366.1319,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 70.2925,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 796.0728,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 421.9381,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 17.3859,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 850.0149,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 14.9141,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 387.5289,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 419.8581,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 393.2207,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 491.1271,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 618.9324,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0133": {
+      "name": "中海深湾玖序花园 2A座 · 深湾玖序 2A · Shenwan Jiuxu 2A",
+      "group": "Landmarks/I0133 Shenwan Jiuxu 2A",
+      "projected_area_m2": 1015.88,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 544.8394,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 339.7256,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 484.969,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 16.895,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 679.6801,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 544.6096,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 12.3691,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 793.9612,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 9.8584,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 501.9739,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 538.0872,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 507.498,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 539.5791,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 667.2171,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0134": {
+      "name": "中海深湾玖序花园 2B座 · 深湾玖序 2B · Shenwan Jiuxu 2B",
+      "group": "Landmarks/I0134 Shenwan Jiuxu 2B",
+      "projected_area_m2": 973.57,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 505.9347,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 323.2576,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 550.0993,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 37.7723,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 637.6025,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 497.2244,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 17.2846,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 759.5651,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 14.7697,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 552.6206,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 590.4404,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 558.0048,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 558.774,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 684.3355,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "I0135": {
+      "name": "中海深湾玖序花园 2C座 · 深湾玖序 2C · Shenwan Jiuxu 2C",
+      "group": "Landmarks/I0135 Shenwan Jiuxu 2C",
+      "projected_area_m2": 1060.01,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 554.4804,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 252.1435,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 537.9893,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 98.501,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 720.3829,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 504.8447,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 94.9385,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 708.4169,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 92.4261,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 478.2136,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 517.7567,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 483.4004,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 470.9052,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 596.7221,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    },
+    "Tower C": {
+      "name": "深超总 C 塔",
+      "group": "Projects/Tower C",
+      "projected_area_m2": 12934.9,
+      "surfaces": {
+        "林地": {
+          "clearance_m": 467.9612,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公园草地": {
+          "clearance_m": 324.0528,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "湿地": {
+          "clearance_m": 471.7497,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "公共步道": {
+          "clearance_m": 215.4337,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "自行车道": {
+          "clearance_m": 478.6728,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "水面": {
+          "clearance_m": 293.6686,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "车行道": {
+          "clearance_m": 7.258,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "桥面": {
+          "clearance_m": 643.1714,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "人行道": {
+          "clearance_m": 4.7416,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划绿轴": {
+          "clearance_m": 46.1889,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共平台": {
+          "clearance_m": 72.9299,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划公共步道": {
+          "clearance_m": 46.8071,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "在建道路": {
+          "clearance_m": 65.5104,
+          "intersects": false,
+          "overlap_m2": 0.0
+        },
+        "规划道路": {
+          "clearance_m": 182.409,
+          "intersects": false,
+          "overlap_m2": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "model_sha256": "e833bd5d4baee084e7eb43bbaff00afcfa91e04a3d06514247c9f7acb61760b4",
+  "method": "可选图层全部开启。逐栋使用实际三角面水平投影检查，含幕墙、挑檐及屋顶。面积为重叠的水平投影，适合审查占地、树冠与楼体之间的平面净距。",
+  "area_tolerance_m2": 0.001,
+  "office_count": 2,
+  "office_pair_count": 1,
+  "offices": {
+    "site-10": {
+      "groups": [
+        "Projects/Masterplan/Illustrative offices/site-10"
+      ],
+      "triangles": 128,
+      "xy_bounds_m": [
+        2497.99,
+        848.5,
+        2526.01,
+        863.5
+      ],
+      "z_bounds_m": [
+        0.05,
+        48.8
+      ],
+      "area_m2": 400.5833,
+      "nearest_building": {
+        "id": "G0529",
+        "name": "G0529",
+        "m": 4.5701
+      },
+      "nearest_other_office": {
+        "id": "site-13",
+        "m": 124.0693
+      },
+      "nearest_by_land_category": {
+        "草地或林地": {
+          "m": 404.2527,
+          "mesh": "Landscape/Parkland",
+          "material": "Park lawns"
+        },
+        "树木": {
+          "m": 71.2769,
+          "mesh": "Landscape/Street canopy",
+          "material": "Urban tree 2"
+        },
+        "公共步道": {
+          "m": 158.9369,
+          "mesh": "Streets/Footways",
+          "material": "Park footpaths"
+        },
+        "自行车道": {
+          "m": 490.29,
+          "mesh": "Landscape/Waterfront trails/Cycling paths",
+          "material": "Cycle carpet"
+        },
+        "水面": {
+          "m": 216.8758,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ reflecting pool"
+        },
+        "车行道": {
+          "m": 77.6117,
+          "mesh": "Streets/Road network",
+          "material": "Road surface"
+        },
+        "桥面": {
+          "m": 750.288,
+          "mesh": "Streets/Road network",
+          "material": "Bridge deck"
+        },
+        "人行道": {
+          "m": 75.1295,
+          "mesh": "Streets/Street and parcel paving",
+          "material": "Urban paving paving"
+        },
+        "在建道路": {
+          "m": 444.9522,
+          "mesh": "Streets/HQ site alignments/Mapped construction corridors",
+          "material": "HQ construction roadbed"
+        },
+        "规划道路": {
+          "m": 316.531,
+          "mesh": "Streets/HQ site alignments/Baishi Zhi 1st Street - plan alignment",
+          "material": "HQ proposed carriageway"
+        },
+        "中央绿轴植被": {
+          "m": 108.0773,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ green axis"
+        },
+        "规划公共平台": {
+          "m": 5.1,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ public terraces"
+        },
+        "规划公共步道": {
+          "m": 38.745,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ walkways"
+        },
+        "中央绿轴树木": {
+          "m": 108.8367,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ alder"
+        }
+      }
+    },
+    "site-13": {
+      "groups": [
+        "Projects/Masterplan/Illustrative offices/site-13"
+      ],
+      "triangles": 128,
+      "xy_bounds_m": [
+        2650.079,
+        851.027,
+        2667.457,
+        866.111
+      ],
+      "z_bounds_m": [
+        0.05,
+        36.8
+      ],
+      "area_m2": 244.3834,
+      "nearest_building": {
+        "id": "G0368",
+        "name": "G0368",
+        "m": 4.9825
+      },
+      "nearest_other_office": {
+        "id": "site-10",
+        "m": 124.0693
+      },
+      "nearest_by_land_category": {
+        "草地或林地": {
+          "m": 388.3578,
+          "mesh": "Landscape/Wetland",
+          "material": "Tidal margins"
+        },
+        "树木": {
+          "m": 73.9817,
+          "mesh": "Landscape/Street canopy",
+          "material": "Urban tree 2"
+        },
+        "公共步道": {
+          "m": 156.8479,
+          "mesh": "Streets/Footways",
+          "material": "Park footpaths"
+        },
+        "自行车道": {
+          "m": 492.9217,
+          "mesh": "Landscape/Waterfront trails/Cycling paths",
+          "material": "Cycle carpet"
+        },
+        "水面": {
+          "m": 224.3351,
+          "mesh": "Water/Lakes and canals",
+          "material": "Lake water"
+        },
+        "车行道": {
+          "m": 80.3586,
+          "mesh": "Streets/Road network",
+          "material": "Road surface"
+        },
+        "桥面": {
+          "m": 616.2525,
+          "mesh": "Streets/Road network",
+          "material": "Bridge deck"
+        },
+        "人行道": {
+          "m": 77.8518,
+          "mesh": "Streets/Street and parcel paving",
+          "material": "Urban paving paving"
+        },
+        "在建道路": {
+          "m": 595.6685,
+          "mesh": "Streets/HQ site alignments/Mapped construction corridors",
+          "material": "HQ construction roadbed"
+        },
+        "规划道路": {
+          "m": 445.8871,
+          "mesh": "Streets/HQ site alignments/Baishi Zhi 1st Street - plan alignment",
+          "material": "HQ proposed carriageway"
+        },
+        "中央绿轴植被": {
+          "m": 260.2301,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ green axis"
+        },
+        "规划公共平台": {
+          "m": 5.6274,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ public terraces"
+        },
+        "规划公共步道": {
+          "m": 190.4403,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ walkways"
+        },
+        "中央绿轴树木": {
+          "m": 261.02,
+          "mesh": "Projects/Masterplan/Civic spaces",
+          "material": "HQ alder"
+        }
+      }
+    }
+  },
+  "conflicts": [],
+  "touches": [],
+  "checked_building_objects": 256,
+  "checked_land_materials": [
+    "中央绿轴树木 / HQ alder",
+    "中央绿轴树木 / HQ camphor",
+    "中央绿轴树木 / HQ fig",
+    "中央绿轴树木 / HQ olive",
+    "中央绿轴树木 / HQ park bark",
+    "中央绿轴植被 / HQ flower lawn",
+    "中央绿轴植被 / HQ garden borders",
+    "中央绿轴植被 / HQ green axis",
+    "中央绿轴植被 / HQ meadow",
+    "人行道 / Urban paving paving",
+    "公共步道 / Park footpaths",
+    "公共步道 / Walk paving",
+    "在建道路 / HQ construction roadbed",
+    "树木 / Leaf jade",
+    "树木 / Leaf sage",
+    "树木 / Leaf willow",
+    "树木 / Urban bark",
+    "树木 / Urban tree 0",
+    "树木 / Urban tree 1",
+    "树木 / Urban tree 2",
+    "桥面 / Bridge deck",
+    "水面 / Bay water",
+    "水面 / HQ reflecting pool",
+    "水面 / Lake water",
+    "水面 / Nearshore water",
+    "水面 / Watercourses",
+    "自行车道 / Cycle carpet",
+    "自行车道 / Urban paving cycle",
+    "草地或林地 / Park lawns",
+    "草地或林地 / Tidal margins",
+    "草地或林地 / Woodland floor",
+    "规划公共平台 / HQ public terraces",
+    "规划公共步道 / HQ pool stone",
+    "规划公共步道 / HQ walkways",
+    "规划道路 / HQ proposed carriageway",
+    "车行道 / Road surface"
+  ],
+  "conflict_counts": {}
+}
