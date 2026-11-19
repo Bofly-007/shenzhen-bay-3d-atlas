@@ -8,10 +8,3 @@ node_modules/
 
 # Local builds
 /dist/
-
-# Reference comparisons stay local pending permission to redistribute.
-/data/houhai/*.jpg
-/data/houhai/*.png
-!/data/houhai/ground-tint.png
-/全景建筑版/*.jpg
-/全景建筑版/*.png

@@ -6,3 +6,4 @@
 - 补充建筑轮廓来自 [Overture Maps](https://docs.overturemaps.org/attribution/) 和其上游的 [East Asian Buildings](https://doi.org/10.5281/zenodo.8174931)。附加地理数据库采用 ODbL 1.0，East Asian Buildings 原始数据采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。[补充建筑来源及处理说明](data/houhai/GROUND-SITES.md)
 - 地表底色包含经修改的 Copernicus Sentinel 数据（2026）。[地表来源及处理说明](data/houhai/ground-tint.md)
 - 浏览器成品使用 Three.js 和 Lucide，相关第三方许可随 HTML 附带。建筑尺寸和场景的依据见 [全景图鉴说明](全景建筑版/本版依据.md)。
+- 仓库所附对照图展示项目渲染的三维模型、街区视图和轮廓分析。建模参考的外部照片、规划图和原始图鉴可按资料说明的链接或署名查阅。
