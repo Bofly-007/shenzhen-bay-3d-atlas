@@ -1,5 +1,19 @@
 const fs=require('node:fs');
 const path=require('node:path');
+function patchAtlasShadows(page,replaceOnce){
+  const source=fs.readFileSync(path.join(__dirname,'atlas-shadow.js'),'utf8')
+    .replace(/^export /m,'');
+  const script='<script id="atlas-shadow-source">\n'+source+'\n</script>';
+  const installed=/<script id="atlas-shadow-source">[\s\S]*?<\/script>/;
+  if(installed.test(page))return page.replace(installed,()=>script);
+  page=replaceOnce(page,'<script id="model-data"',script+'\n<script id="model-data"');
+  const oldShadow=/function rt\(D,j\)\{let ie=mo\(j,650,6200\);[^}]+\}/;
+  const oldSource=page.match(oldShadow)?.[0];
+  if(!oldSource)throw Error('Cannot locate the original shadow camera');
+  page=replaceOnce(page,oldSource,'const updateAtlasShadow=createAtlasShadowUpdater(t,l,n,r);');
+  page=replaceOnce(page,'rt(ie.c,ie.extent*Math.max(re().w/re().h,1)*.72),','');
+  return replaceOnce(page,'n.updateMatrixWorld(),t.render(e,n)','n.updateMatrixWorld(),updateAtlasShadow(),t.render(e,n)');
+}
 function patchMetricDirectory(page){
   function replaceOnce(input,needle,next){
     const first=input.indexOf(needle);
@@ -93,7 +107,8 @@ function patchMetricDirectory(page){
   const oldConcept='let Ze=g(f,"Masterplan"),R=pe("#showconcept");R&&(R.disabled=!Ze,Ie&&Ze&&(Ze.visible=!1,R.checked=!1),';
   const newConcept='let Ze=g(f,"Illustrative offices"),R=pe("#showconcept");R&&(R.disabled=!Ze,Ze&&(Ze.visible=!1,R.checked=!1),';
   if(!page.includes(newConcept))page=replaceOnce(page,oldConcept,newConcept);
-  return page.replace('概念补全体量<input id="showconcept" type="checkbox" checked>',
-                      '示意建筑（无项目依据）<input id="showconcept" type="checkbox">');
+  page=page.replace('概念补全体量<input id="showconcept" type="checkbox" checked>',
+                    '示意建筑（无项目依据）<input id="showconcept" type="checkbox">');
+  return patchAtlasShadows(page,replaceOnce);
 }
 module.exports={patchMetricDirectory};

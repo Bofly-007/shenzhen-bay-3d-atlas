@@ -3,6 +3,7 @@ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 import {createIcons, Info, Waves, Maximize, Building2, Landmark, Plus, Minus, Layers, RotateCcw,Search} from 'lucide';
+import {createAtlasShadowUpdater} from './atlas-shadow.js';
 
 const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
 const v=(x,y,z)=>new THREE.Vector3(x,y,z);
@@ -43,8 +44,9 @@ async function main(){
   const env=pmrem.fromScene(room,.04);scene.environment=env.texture;scene.environmentIntensity=.23;room.dispose();pmrem.dispose();
   scene.add(new THREE.HemisphereLight(0xfffcf7,0xb1c4c1,1.02));
   const sun=new THREE.DirectionalLight(0xfffcf4,1.59);
-  sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.00013;sun.shadow.normalBias=.72;
+  sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.normalBias=.72;
   scene.add(sun,sun.target);
+  const updateAtlasShadow=createAtlasShadowUpdater(renderer,sun,camera,controls);
   const southLight=new THREE.DirectionalLight(0xe5f3ff,.24);southLight.position.set(300,300,500);scene.add(southLight);
   const gltf=await new GLTFLoader().parseAsync(await decode(),'');
   const model=gltf.scene;scene.add(model);model.updateMatrixWorld(true);
@@ -177,7 +179,6 @@ async function main(){
     if(key==='super'&&aspect<1.1)span*=.86;
     return {c,d:d.clone(),extent:Math.max(span,['towerbase','index'].includes(key)?60:200)};
   }
-  function shadow(center,radius){const r=clamp(radius,650,6200);sun.target.position.set(center.x,10,center.z);sun.position.copy(sun.target.position).add(v(-4000,8200,3600));const c=sun.shadow.camera;c.left=-r;c.right=r;c.top=r;c.bottom=-r;c.near=1500;c.far=22000;c.updateProjectionMatrix();sun.target.updateMatrixWorld();sun.updateMatrixWorld();renderer.shadowMap.needsUpdate=true}
   function projection(){const {w,h}=viewport(),a=w/h;camera.left=-extent*a/2;camera.right=extent*a/2;camera.top=extent/2;camera.bottom=-extent/2;camera.updateProjectionMatrix()}
   function applyPose(c,d,e){extent=e;camera.zoom=1;projection();target.copy(c);camera.position.copy(c).addScaledVector(d,defaultDist);camera.lookAt(c);controls.update();dirty=true}
   function changeView(key,immediate=false){
@@ -189,7 +190,7 @@ async function main(){
     const parentView=['tower','towerbase','stadium','culture','onebay','lakesky','dajia','techrow'].includes(key)?'houhai':key.startsWith('project')||['bank','banknorth','oppo','ctowerblock','eastblocks'].includes(key)?'super':key;
     if(menu)menu.value=Array.from(menu.options).some(o=>o.value===key)?key:'';
     for(const b of $$('[data-view]'))b.setAttribute('aria-pressed',String(b.dataset.view===parentView));
-    closePanels();shadow(goal.c,goal.extent*Math.max(viewport().w/viewport().h,1)*.72);
+    closePanels();
     if(immediate||matchMedia('(prefers-reduced-motion: reduce)').matches){animation=null;applyPose(goal.c,goal.d,goal.extent)}
     else{animation={from:target.clone(),dir:camera.position.clone().sub(target).normalize(),startExtent:extent/camera.zoom,to:goal,stamp:performance.now()};dirty=true}
   }
@@ -272,7 +273,7 @@ async function main(){
       const c=animation.from.clone().lerp(g.c,s),d=animation.dir.clone().lerp(g.d,s).normalize(),e=Math.exp(Math.log(animation.startExtent)*(1-s)+Math.log(g.extent)*s);
       applyPose(c,d,e);if(t>=1)animation=null;
     }
-    if(dirty){camera.updateMatrixWorld();renderer.render(scene,camera);overlays(w,h);dirty=false;api.frames++}
+    if(dirty){camera.updateMatrixWorld();updateAtlasShadow();renderer.render(scene,camera);overlays(w,h);dirty=false;api.frames++}
     requestAnimationFrame(frame);
   }
   let highlight=null;
