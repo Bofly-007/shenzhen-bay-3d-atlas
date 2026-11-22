@@ -226,12 +226,12 @@ def build(scene,doc):
     return records
 
 
-def crop_ground(doc,blob,active):
+def crop_ground(doc,blob,active,sector='HQ blocks'):
     """Use exact old Overture triangle coordinates to find every retired part."""
     from collections import defaultdict
     from replace_mapped_parts import _array
     from ground_sites import data
-    group='Buildings/Supplemental mapped footprints/HQ blocks'
+    group='Buildings/Supplemental mapped footprints/'+sector
     mesh=next(m for m in doc['meshes'] if m['name']==group)
     at={}
     for prim in mesh['primitives']:

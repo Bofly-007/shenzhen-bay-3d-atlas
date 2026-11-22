@@ -17,6 +17,22 @@ KEYS={(round(x,1),round(y,1)) for x,y,*_ in [*TOWERS,*PODIUMS]}
 def replaces(cx,cy,*args):
     return (round(cx,1),round(cy,1)) in KEYS
 
+def south_court(s):
+    """Approximate the documented south garden inside the open court."""
+    g=GROUP+'/South courtyard'
+    for name,color in [('planting','#7e9d70'),('water','#6f9fa4'),
+                       ('rim','#ccc4b0'),('foliage','#547e52'),('trunk','#796653')]:
+        s.mat('OB court '+name,color)
+    def ellipse(x,y,a,b):
+        return [(x+a*math.cos(i*math.tau/32),y+b*math.sin(i*math.tau/32)) for i in range(32)]
+    for x,y,a,b in [(-837,-1178,9,4),(-816,-1160,6,9),(-840,-1139,10,4)]:
+        s.prism(g,'OB court planting',ellipse(x,y,a,b),.19,.77)
+        for dx,dy in [(-a*.42,0),(a*.42,b*.20)]:
+            s.rod(g,'OB court trunk',(x+dx,y+dy,.77),(x+dx,y+dy,3.3),.17)
+            s.prism(g,'OB court foliage',ellipse(x+dx,y+dy,2.2,1.9),2.7,4.7)
+    s.prism(g,'OB court rim',ellipse(-835,-1159,10,6),.2,.58)
+    s.prism(g,'OB court water',ellipse(-835,-1159,9,5),.57,.61)
+
 def blend(a,b,t):return tuple(x+(y-x)*t for x,y in zip(a,b))
 def scaled(pts,c,k):return [(c[0]+(x-c[0])*k,c[1]+(y-c[1])*k) for x,y in pts]
 def strip(s,g,mat,p,z,q,w):
@@ -117,4 +133,5 @@ def build(s):
         p=footprints[(x,y)]
         if n==7:flagship(s,p,(x,y),top,fl)
         else:residential(s,n,p,(x,y),top,fl)
+    south_court(s)
     return {'towers':len(TOWERS),'podiums':len(PODIUMS)}
