@@ -1,0 +1,26 @@
+name: Build native iPhone app
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install xcodegen
+      - run: sh ios/prepare-xcode.sh
+      - name: Build for a physical iPhone
+        run: |
+          xcodebuild -project ios/SZ3D.xcodeproj -scheme SZ3D -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath "$RUNNER_TEMP/sz3d" CODE_SIGNING_ALLOWED=NO build
+          app="$RUNNER_TEMP/sz3d/Build/Products/Release-iphoneos/SZ3D.app"
+          test -s "$app/SZ3D"
+          cmp "$app/Atlas.html" "全景建筑版/深圳湾_全景建筑.html"
+          mkdir Payload
+          ditto "$app" Payload/SZ3D.app
+          ditto -c -k --keepParent Payload SZ_3D-iPhone-1.0.2-unsigned.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SZ_3D-iPhone-unsigned
+          path: SZ_3D-iPhone-1.0.2-unsigned.ipa
+          if-no-files-found: error
