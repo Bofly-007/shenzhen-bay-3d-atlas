@@ -1,0 +1,18 @@
+appId: com.sz3d.atlas
+productName: SZ_3D
+electronVersion: 38.8.6
+publish: null
+files:
+  - main.cjs
+  - preload.cjs
+  - package.json
+  - app/**
+  - LICENSE
+  - NOTICE.md
+mac:
+  target: dmg
+  icon: icon.png
+  identity: "-"
+  hardenedRuntime: false
+  notarize: false
+artifactName: SZ_3D-${version}-macOS-${arch}.${ext}

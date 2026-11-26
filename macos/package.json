@@ -1,0 +1,10 @@
+{
+  "name": "sz3d-desktop",
+  "productName": "SZ_3D",
+  "version": "1.0.2",
+  "private": true,
+  "description": "SZ_3D · 深圳湾三维城市图集（离线桌面版）",
+  "author": "SZ_3D",
+  "license": "UNLICENSED",
+  "main": "main.cjs"
+}

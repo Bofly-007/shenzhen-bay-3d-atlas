@@ -1,0 +1,28 @@
+name: Build macOS installers
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    strategy:
+      matrix:
+        arch: [arm64, x64]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare offline atlas
+        run: |
+          node macos/prepare.cjs
+          cp LICENSE NOTICE.md macos/
+          cmp macos/app/index.html "全景建筑版/深圳湾_全景建筑.html"
+      - name: Build disk image
+        working-directory: macos
+        env:
+          ARCH: ${{ matrix.arch }}
+        run: npx --yes electron-builder@26.18.0 --mac dmg "--$ARCH" --publish never
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SZ_3D-macOS-${{ matrix.arch }}
+          path: macos/dist/*.dmg
+          if-no-files-found: error
